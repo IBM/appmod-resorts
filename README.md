@@ -76,7 +76,7 @@ To find your Microclimate deployment:
 
 * Select `Workloads ▷ Deployments`.
 
-  ![microclimate1](doc/source/images/microclimate1.jpg)
+  ![microclimate1](doc/source/images/microclimate1.png)
 
 * You should see Microclimate deployments listed. Go to the `Launch` link and launch the portal.
 
@@ -84,7 +84,7 @@ To find your Microclimate deployment:
 
 * This will take you to the Microclimate Projects page. Take note of the URL. You will need this later.
 
-  ![microclimate3](doc/source/images/microclimate3.jpg)
+  ![microclimate3](doc/source/images/microclimate3.png)
 
 ## 2. Get started with the Transformation Advisor
 
@@ -96,19 +96,19 @@ To get started with the Transformation Advisor:
 
 * Select `Platform ▷ Transformation`.
 
-  ![run_ta](doc/source/images/run_ta.jpg)
+  ![run_ta](doc/source/images/run_ta.png)
 
 * On the welcome screen, click the `+` to add a workspace.
 
-  ![welcome_to_ta](doc/source/images/welcome-to-ta.jpg)
+  ![welcome_to_ta](doc/source/images/welcome_to_ta.jpg)
 
 * Create a new workspace that will be used to house your recommendations. The workspace name can be any string you want, such as the project name or the name for the portfolio of applications you will be analysing -- basically anything that will help you to easily identify your work when you return to it at a later date.
 
-  ![new_workspace](doc/source/images/new-workspace.jpg)
+  ![new_workspace](doc/source/images/new_workspace.png)
 
 * You will then be asked to enter a collection name. This is an opportunity for you to subdivide your work even further into a more focused grouping. It would typically be associated with a single run of the Data Collector and may be the name of the individual WAS server that you will be running the Data Collector on. It can be any string and can be deleted later -– so don’t be afraid to get creative!
 
-  ![new_collection](doc/source/images/new-collection.jpg)
+  ![new_collection](doc/source/images/new_collection.png)
 
 * Hit `Let’s Go`.
 
@@ -125,7 +125,7 @@ The Data Collector tab should now display the screen shown below. The Data Colle
 
 * Download the zip file to your browser's download directory.
 
-  ![dc-download](doc/source/images/dc-download.png)
+  ![dc_download](doc/source/images/dc_download.png)
 
 ### Install and Run
 
@@ -192,7 +192,7 @@ Each column in the table is sortable. There is a filter text box on the top righ
 
 By checking the `Show All Recommendations` checkbox, you will be presented with all the findings of the tool -– not just the top recommended option but also the options that the tool would not necessarily recommend as easiest. This is usefull in understanding the complete analysis that is applied to each application. As you can see from the example below, when we expand and look at all the recommendations for 'DefaultApplication.ear' you can see that there are technology match issues and this would be a "Complex" move to Liberty on Private or Public Cloud. In this instance, we would recommend a move to Traditional WAS on Private Cloud. That move would be moderate complexity, with some dependencies to consider, but no issues or code changes required.
 
-![moderate-was](doc/source/images/moderate-was.jpg)
+![moderate_was](doc/source/images/moderate_was.jpg)
 
 The `View Details` button for each application will take you to the Application details where you can see a lot more detail. For starters, the complexity rating is explained for you.
 
@@ -204,7 +204,7 @@ You will also see details for each issue and dependency discovered:
 
 For some issues, there will be an arrow. Select the arrow to display extra information about the issue and any known hints/tips to resolve.
 
-![screen10-1](doc/source/images/screen10-1.jpg)
+![screen10_1](doc/source/images/screen10_1.jpg)
 
 Scroll to the end of the recommendations screen to find three links to further detailed reports.
 
@@ -246,7 +246,7 @@ It also creates for you the build artifacts needed by Microclimate to build and 
 
 You will need to add the application binary itself (EAR/WAR file) and any external dependencies that may be particular to your application such as database drivers. These files can easily be added on the Migration Plan page at the click of a button.
 
-![add_dependencies](doc/source/images/added-war.png)
+![add_dependencies](doc/source/images/added_war.png)
 
 Once all required application dependencies are uploaded, you will be able to either download the Migration bundle (if you wish to manually deploy your app) or hit the `Deploy Bundle` button on the right hand side of the screen to help you automatically deploy the application using Microclimate.
 
@@ -256,7 +256,7 @@ If you don’t already have a GitHub account that you can use, signup for one [h
 
 * Once you have an account, create a repository to upload your migrating application to.
 
-  ![git_new_repo](doc/source/images/git_new_repo.jpg)
+  ![git_new_repo](doc/source/images/git_new_repo.png)
 
 * Take note of the URL to your Git repository. You will also need an access token.
   * Go to your user settings and select `Developer settings` and then `Personal access tokens`.
@@ -267,7 +267,7 @@ If you don’t already have a GitHub account that you can use, signup for one [h
 
 After you hit the `Deploy Bundle` button, you will be asked on the next screen to fill in the details you saved from earlier steps as shown below...
 
-![deploy_details](doc/source/images/deploy_details.jpg)
+![deploy_details](doc/source/images/deploy_details.png)
 
 Use the Git URL and credentials and the Microclimate URL you gathered earlier. The Microclimate project name can be anything you want as long as it’s unique and a lowercase string.
 
