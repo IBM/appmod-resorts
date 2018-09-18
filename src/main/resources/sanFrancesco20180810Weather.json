@@ -1,0 +1,649 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"San Francisco",
+		"tz_short":"PDT",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.77999878",
+		"lon":"-122.41999817",
+		"zip":"94102",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94102.1.99999",
+		"requesturl":"US/CA/San_Francisco.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/San_Francisco.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"San Francisco", "state":"CA", "country":"US", "icao":"KSFO", "lat":"37.61999893", "lon":"-122.37000275" }
+		,{ "city":"Oakland", "state":"CA", "country":"US", "icao":"KOAK", "lat":"37.72000122", "lon":"-122.22000122" }
+		,{ "city":"Hayward", "state":"CA", "country":"US", "icao":"KHWD", "lat":"37.65999985", "lon":"-122.12000275" }
+		,{ "city":"Half Moon Bay", "state":"CA", "country":"US", "icao":"KHAF", "lat":"37.50999832", "lon":"-122.50000000" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Western Addition",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1139",
+		"lat":37.781612,
+		"lon":-122.431908,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Soma",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1309",
+		"lat":37.772057,
+		"lon":-122.409943,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Lower Haight",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR902",
+		"lat":37.771694,
+		"lon":-122.432228,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Weather Underground HQ - Dyacon",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR435",
+		"lat":37.793518,
+		"lon":-122.404121,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"H",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1102",
+		"lat":37.785748,
+		"lon":-122.397400,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Mission Dolores [near Bi-Rite Market]",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1030",
+		"lat":37.761509,
+		"lon":-122.424606,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Central SOMA",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1156",
+		"lat":37.778145,
+		"lon":-122.394989,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"The Castro",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR366",
+		"lat":37.761604,
+		"lon":-122.430000,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Pacific Heights",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR646",
+		"lat":37.792049,
+		"lon":-122.440247,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Mission Creek",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1104",
+		"lat":37.772312,
+		"lon":-122.395493,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"SOMA South Park",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR327",
+		"lat":37.782135,
+		"lon":-122.393753,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Children\u0027s Day School - Mission District",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1150",
+		"lat":37.759605,
+		"lon":-122.425537,
+		"distance_km":2,
+		"distance_mi":1
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"San Francisco, CA",
+		"city":"San Francisco",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94102",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.77999878",
+		"longitude":"-122.41999817",
+		"elevation":"60.0"
+		},
+		"observation_location": {
+		"full":"San Francisco, California",
+		"city":"San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.77",
+		"longitude":"-122.41",
+		"elevation":"30 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANFR1309",
+		"observation_time":"Last Updated on August 10, 7:05 AM PDT",
+		"observation_time_rfc822":"Thu, 09 Aug 2018 07:05:13 -0700",
+		"observation_epoch":"1533823513",
+		"local_time_rfc822":"Thu, 09 Aug 2018 07:05:22 -0700",
+		"local_epoch":"1533823522",
+		"local_tz_short":"PDT",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0700",
+		"weather":"Overcast",
+		"temperature_string":"62.1 F (16.7 C)",
+		"temp_f":62.1,
+		"temp_c":16.7,
+		"relative_humidity":"78%",
+		"wind_string":"Calm",
+		"wind_dir":"North",
+		"wind_degrees":0,
+		"wind_mph":0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1014",
+		"pressure_in":"29.95",
+		"pressure_trend":"+",
+		"dewpoint_string":"55 F (13 C)",
+		"dewpoint_f":55,
+		"dewpoint_c":13,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"62.1 F (16.7 C)",
+		"feelslike_f":"62.1",
+		"feelslike_c":"16.7",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/San_Francisco.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR1309",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.772057,-122.409943",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"5:30 AM PDT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Some clouds this morning will give way to generally sunny skies for the afternoon. High 67F. Winds W at 10 to 20 mph.",
+		"fcttext_metric":"Some clouds this morning will give way to generally sunny skies for the afternoon. High near 20C. Winds W at 15 to 30 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Thursday Night",
+		"fcttext":"Mainly clear. Low 51F. Winds W at 10 to 15 mph.",
+		"fcttext_metric":"Mainly clear. Low 11C. Winds W at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Friday",
+		"fcttext":"Abundant sunshine. High 69F. Winds W at 15 to 25 mph.",
+		"fcttext_metric":"Mainly sunny. High 21C. Winds W at 15 to 30 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Friday Night",
+		"fcttext":"Clear skies. Low 54F. Winds W at 10 to 20 mph.",
+		"fcttext_metric":"A mostly clear sky. Low 13C. Winds W at 15 to 30 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":4,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Saturday",
+		"fcttext":"Mostly sunny skies. High 66F. Winds W at 10 to 20 mph.",
+		"fcttext_metric":"Mostly sunny skies. High around 20C. Winds W at 15 to 30 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Saturday Night",
+		"fcttext":"A few clouds. Low 52F. Winds WSW at 10 to 15 mph.",
+		"fcttext_metric":"A few clouds. Low 12C. Winds WSW at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":6,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Partly cloudy. High 63F. Winds W at 10 to 20 mph.",
+		"fcttext_metric":"Partly cloudy. High 18C. Winds W at 15 to 30 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"A few clouds from time to time. Low 52F. Winds W at 10 to 15 mph.",
+		"fcttext_metric":"A few clouds. Low 12C. Winds W at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1533866400",
+	"pretty":"7:00 PM PDT on August 09, 2018",
+	"day":9,
+	"month":8,
+	"year":2018,
+	"yday":220,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"67",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"51",
+		"celsius":"11"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "W",
+		"degrees": 273
+		},
+		"avewind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "W",
+		"degrees": 273
+		},
+		"avehumidity": 78,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1533952800",
+	"pretty":"7:00 PM PDT on August 10, 2018",
+	"day":10,
+	"month":8,
+	"year":2018,
+	"yday":221,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"69",
+		"celsius":"21"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "W",
+		"degrees": 263
+		},
+		"avewind": {
+		"mph": 17,
+		"kph": 27,
+		"dir": "W",
+		"degrees": 263
+		},
+		"avehumidity": 74,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534039200",
+	"pretty":"7:00 PM PDT on August 11, 2018",
+	"day":11,
+	"month":8,
+	"year":2018,
+	"yday":222,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"66",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"52",
+		"celsius":"11"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "W",
+		"degrees": 265
+		},
+		"avewind": {
+		"mph": 16,
+		"kph": 26,
+		"dir": "W",
+		"degrees": 265
+		},
+		"avehumidity": 74,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534125600",
+	"pretty":"7:00 PM PDT on August 12, 2018",
+	"day":12,
+	"month":8,
+	"year":2018,
+	"yday":223,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"63",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"52",
+		"celsius":"11"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "W",
+		"degrees": 260
+		},
+		"avewind": {
+		"mph": 14,
+		"kph": 23,
+		"dir": "W",
+		"degrees": 260
+		},
+		"avehumidity": 80,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

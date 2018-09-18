@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="195px" height="77px" viewBox="0 0 133 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Overcast</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 195 0 195 77.3978 0 77.3978"></polygon>
+    </defs>
+    <g id="Overcast" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Clip-2"></g>
+        <path d="M133.530582,42.5565389 C133.530582,28.1516706 124.207408,16.5331404 112.705974,16.5331404 C109.143104,16.5331404 105.78909,17.6849273 102.856896,19.6611799 C95.0025582,7.65164475 83.0724567,0 69.7104964,0 C55.7130675,0 43.2851366,8.42064394 35.470516,21.4278922 C32.1630662,19.3400217 28.4296881,18.1608439 24.473759,18.1608439 C10.9570402,18.1608439 0,31.7693222 0,48.6982609 C0,50.1985969 0.0903899326,51.6304556 0.256789581,53 L131.746751,53 C132.89032,48.8913667 133.530582,46.3166232 133.530582,42.5565389" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+    </g>
+</svg>

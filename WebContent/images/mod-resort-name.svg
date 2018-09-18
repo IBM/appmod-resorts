@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="74.852005mm"
+   height="9.2591419mm"
+   viewBox="0 0 74.852005 9.2591419"
+   version="1.1"
+   id="svg4098"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="mod-resort-name.svg">
+  <defs
+     id="defs4092" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="395.71443"
+     inkscape:cy="-525.86174"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="669"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4095">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.1338911,-0.43993935)">
+    <rect
+       id="rect4100"
+       width="74.852005"
+       height="9.2591419"
+       x="1.1338911"
+       y="0.43993935"
+       style="stroke-width:0.06475309"
+       rx="3.4944232" />
+    <g
+       letter-spacing="1.013771"
+       font-weight="normal"
+       font-size="33"
+       id="MOD-Resorts"
+       transform="matrix(0.26458333,0,0,0.26458333,1.8077938,5.9612664)"
+       style="font-weight:normal;font-size:33px;font-family:Rockwell-Regular, Rockwell;letter-spacing:1.01377106;fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+      <text
+         id="Header-Logo"
+         style="fill:#ffffff">
+        <tspan
+           id="tspan4159"
+           y="12"
+           x="0">MOD RESORTS</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

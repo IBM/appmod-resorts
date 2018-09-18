@@ -1,0 +1,856 @@
+{
+  "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast": 1
+    ,
+      "geolookup": 1
+    ,
+      "conditions": 1
+    }
+  }
+,	"location": {
+  "type":"INTLCITY",
+  "country":"FR",
+  "country_iso3166":"FR",
+  "country_name":"France",
+  "state":"75",
+  "city":"Paris",
+  "tz_short":"CEST",
+  "tz_long":"Europe/Paris",
+  "lat":"48.86000061",
+  "lon":"2.34999990",
+  "zip":"00000",
+  "magic":"45",
+  "wmo":"07156",
+  "l":"/q/zmw:00000.45.07156",
+  "requesturl":"global/stations/07156.html",
+  "wuiurl":"https://www.wunderground.com/global/stations/07156.html",
+  "nearby_weather_stations": {
+    "airport": {
+      "station": [
+        { "city":"Paris-Montsouris", "state":"", "country":"France", "icao":"----", "lat":"48.81666565", "lon":"2.33333302" }
+      ,{ "city":"Paris Le Bourget", "state":"", "country":"FR", "icao":"LFPB", "lat":"48.97000122", "lon":"2.45000005" }
+      ,{ "city":"Villacoublay", "state":"", "country":"FR", "icao":"LFPV", "lat":"48.77000046", "lon":"2.20000005" }
+      ]
+    }
+  ,
+    "pws": {
+      "station": [
+        {
+          "neighborhood":"Paris",
+          "city":"Paris 04 Hotel-de-Ville",
+          "state":"75",
+          "country":"FR",
+          "id":"I75PARIS35",
+          "lat":48.860001,
+          "lon":2.350000,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue Quincampoix",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS1920",
+          "lat":48.860001,
+          "lon":2.350000,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue Quincampoix",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS249",
+          "lat":48.860001,
+          "lon":2.350000,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue Quincampoix",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS3355",
+          "lat":48.860001,
+          "lon":2.350000,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Paris",
+          "city":"Paris 04 Hotel-de-Ville",
+          "state":"75",
+          "country":"FR",
+          "id":"I75PARIS93",
+          "lat":48.859932,
+          "lon":2.349829,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue Saint-Martin",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS860",
+          "lat":48.859779,
+          "lon":2.350180,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Paris",
+          "city":"Paris 04 Hotel-de-Ville",
+          "state":"75",
+          "country":"FR",
+          "id":"I75PARIS484",
+          "lat":48.859589,
+          "lon":2.350830,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue de la Cossonnerie",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS1532",
+          "lat":48.861248,
+          "lon":2.349397,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Boulevard de Sébastopol",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS620",
+          "lat":48.858891,
+          "lon":2.348580,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Paris",
+          "city":"Paris 04 Hotel-de-Ville",
+          "state":"75",
+          "country":"FR",
+          "id":"I75PARIS671",
+          "lat":48.860386,
+          "lon":2.347704,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue Saint-Denis",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS803",
+          "lat":48.861530,
+          "lon":2.349079,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue de la Verrerie",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS913",
+          "lat":48.858181,
+          "lon":2.351090,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Paris",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS1294",
+          "lat":48.858913,
+          "lon":2.353949,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Paris",
+          "city":"Paris 04 Hotel-de-Ville",
+          "state":"75",
+          "country":"FR",
+          "id":"I75PARIS668",
+          "lat":48.857494,
+          "lon":2.347630,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Paris",
+          "city":"Paris 04 Hotel-de-Ville",
+          "state":"75",
+          "country":"FR",
+          "id":"I75PARIS27",
+          "lat":48.862335,
+          "lon":2.352815,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Paris",
+          "city":"Paris 04 Hotel-de-Ville",
+          "state":"75",
+          "country":"FR",
+          "id":"I75PARIS675",
+          "lat":48.863602,
+          "lon":2.348981,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Paris",
+          "city":"Paris 04 Hotel-de-Ville",
+          "state":"75",
+          "country":"FR",
+          "id":"I75PARIS51",
+          "lat":48.856613,
+          "lon":2.352222,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Quai de l\u0027Hôtel de ville",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS1978",
+          "lat":48.856613,
+          "lon":2.352222,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Quai de l\u0027Hôtel de ville",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS475",
+          "lat":48.856613,
+          "lon":2.352222,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Quai de l\u0027Hôtel de ville",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS560",
+          "lat":48.856613,
+          "lon":2.352222,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Quai de l\u0027Hôtel de ville",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS628",
+          "lat":48.856613,
+          "lon":2.352222,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue de Turbigo",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS929",
+          "lat":48.863186,
+          "lon":2.347050,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue Saint Honoré",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS1758",
+          "lat":48.860889,
+          "lon":2.344348,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue de Montmorency",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS1570",
+          "lat":48.863270,
+          "lon":2.353479,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue Saint-Germain l\u0027Auxerrois",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS2136",
+          "lat":48.858517,
+          "lon":2.344216,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Paris",
+          "city":"Paris 04 Hotel-de-Ville",
+          "state":"75",
+          "country":"FR",
+          "id":"I75PARIS59",
+          "lat":48.856167,
+          "lon":2.347626,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue de Montmorency",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS3318",
+          "lat":48.863571,
+          "lon":2.353675,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Pont d\u0027Arcole",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS2658",
+          "lat":48.855553,
+          "lon":2.350276,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Passage du Grand Cerf",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS654",
+          "lat":48.864651,
+          "lon":2.350200,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue Chapon",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS1001",
+          "lat":48.864029,
+          "lon":2.353840,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Rue Chapon",
+          "city":"Paris",
+          "state":"",
+          "country":"FR",
+          "id":"IPARIS1292",
+          "lat":48.864128,
+          "lon":2.353615,
+          "distance_km":0,
+          "distance_mi":0
+        }
+      ]
+    }
+  }
+}
+,	"current_observation": {
+  "image": {
+    "url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+    "title":"Weather Underground",
+    "link":"http://www.wunderground.com"
+  },
+  "display_location": {
+    "full":"Paris, France",
+    "city":"Paris",
+    "state":"75",
+    "state_name":"France",
+    "country":"FR",
+    "country_iso3166":"FR",
+    "zip":"00000",
+    "magic":"45",
+    "wmo":"07156",
+    "latitude":"48.86000061",
+    "longitude":"2.34999990",
+    "elevation":"86.0"
+  },
+  "observation_location": {
+    "full":"Paris Le Bourget, ",
+    "city":"Paris Le Bourget",
+    "state":"",
+    "country":"FR",
+    "country_iso3166":"FR",
+    "latitude":"48.97",
+    "longitude":"2.45",
+    "elevation":"213 ft"
+  },
+  "estimated": {
+  },
+  "station_id":"LFPB",
+  "observation_time":"Last Updated on May 14, 5:30 PM CEST",
+  "observation_time_rfc822":"Mon, 14 May 2018 17:30:00 +0200",
+  "observation_epoch":"1526311800",
+  "local_time_rfc822":"Mon, 14 May 2018 17:38:19 +0200",
+  "local_epoch":"1526312299",
+  "local_tz_short":"CEST",
+  "local_tz_long":"Europe/Paris",
+  "local_tz_offset":"+0200",
+  "weather":"Overcast",
+  "temperature_string":"57 F (14 C)",
+  "temp_f":57,
+  "temp_c":14,
+  "relative_humidity":"82%",
+  "wind_string":"From the North at 7 MPH",
+  "wind_dir":"North",
+  "wind_degrees":360,
+  "wind_mph":7,
+  "wind_gust_mph":0,
+  "wind_kph":11,
+  "wind_gust_kph":0,
+  "pressure_mb":"1015",
+  "pressure_in":"29.98",
+  "pressure_trend":"0",
+  "dewpoint_string":"52 F (11 C)",
+  "dewpoint_f":52,
+  "dewpoint_c":11,
+  "heat_index_string":"NA",
+  "heat_index_f":"NA",
+  "heat_index_c":"NA",
+  "windchill_string":"NA",
+  "windchill_f":"NA",
+  "windchill_c":"NA",
+  "feelslike_string":"57 F (14 C)",
+  "feelslike_f":"57",
+  "feelslike_c":"14",
+  "visibility_mi":"6.2",
+  "visibility_km":"10.0",
+  "solarradiation":"--",
+  "UV":"1","precip_1hr_string":"-9999.00 in (-9999.00 mm)",
+  "precip_1hr_in":"-9999.00",
+  "precip_1hr_metric":"--",
+  "precip_today_string":"0.00 in (0.0 mm)",
+  "precip_today_in":"0.00",
+  "precip_today_metric":"0.0",
+  "icon":"cloudy",
+  "icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+  "forecast_url":"http://www.wunderground.com/global/stations/07156.html",
+  "history_url":"http://www.wunderground.com/history/airport/LFPB/2018/5/14/DailyHistory.html",
+  "ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=48.97000122,2.45000005",
+  "nowcast":""
+}
+,
+  "forecast":{
+    "txt_forecast": {
+      "date":"4:59 PM CEST",
+      "forecastday": [
+        {
+          "period":0,
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "title":"Monday",
+          "fcttext":"Showers possible. Lows overnight in the low 50s.",
+          "fcttext_metric":"Showers possible. Low 11C.",
+          "pop":"50"
+        }
+      ,
+        {
+          "period":1,
+          "icon":"nt_chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+          "title":"Monday Night",
+          "fcttext":"Rain showers early becoming more intermittent overnight. Low 51F. Winds NNW at 10 to 15 mph. Chance of rain 50%.",
+          "fcttext_metric":"Rain showers early becoming more intermittent overnight. Low 11C. Winds NNW at 15 to 25 km/h. Chance of rain 50%.",
+          "pop":"50"
+        }
+      ,
+        {
+          "period":2,
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "title":"Tuesday",
+          "fcttext":"Partly cloudy early followed by increasing clouds with showers developing later in the day. High 74F. Winds NNW at 10 to 15 mph. Chance of rain 60%.",
+          "fcttext_metric":"Partly cloudy in the morning. Increasing clouds with periods of showers later in the day. High 23C. Winds NNW at 15 to 25 km/h. Chance of rain 60%.",
+          "pop":"60"
+        }
+      ,
+        {
+          "period":3,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Tuesday Night",
+          "fcttext":"A few clouds from time to time. A stray shower or thunderstorm is possible. Low 53F. Winds NNW at 10 to 15 mph.",
+          "fcttext_metric":"Partly cloudy. A stray shower or thunderstorm is possible. Low 12C. Winds NNW at 15 to 25 km/h.",
+          "pop":"20"
+        }
+      ,
+        {
+          "period":4,
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "title":"Wednesday",
+          "fcttext":"Partly cloudy early followed by increasing clouds with showers developing later in the day. High 73F. Winds N at 10 to 20 mph. Chance of rain 50%.",
+          "fcttext_metric":"Partly cloudy early followed by increasing clouds with showers developing later in the day. High 23C. Winds N at 15 to 30 km/h. Chance of rain 50%.",
+          "pop":"50"
+        }
+      ,
+        {
+          "period":5,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Wednesday Night",
+          "fcttext":"Clear skies with a few passing clouds. Low 48F. Winds N at 10 to 20 mph.",
+          "fcttext_metric":"Mainly clear skies. Low 9C. Winds N at 15 to 30 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":6,
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title":"Thursday",
+          "fcttext":"Intervals of clouds and sunshine. High 66F. Winds NNE at 10 to 15 mph.",
+          "fcttext_metric":"Partly cloudy skies. High 19C. Winds NNE at 15 to 25 km/h.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":7,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Thursday Night",
+          "fcttext":"Mostly clear skies. Low 46F. Winds NNE at 10 to 15 mph.",
+          "fcttext_metric":"Generally fair. Low 8C. Winds NNE at 15 to 25 km/h.",
+          "pop":"10"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {"date":{
+          "epoch":"1526317200",
+          "pretty":"7:00 PM CEST on May 14, 2018",
+          "day":14,
+          "month":5,
+          "year":2018,
+          "yday":133,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Mon",
+          "weekday":"Monday",
+          "ampm":"PM",
+          "tz_short":"CEST",
+          "tz_long":"Europe/Paris"
+        },
+          "period":1,
+          "high": {
+            "fahrenheit":"57",
+            "celsius":"14"
+          },
+          "low": {
+            "fahrenheit":"51",
+            "celsius":"11"
+          },
+          "conditions":"Chance of Rain",
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "skyicon":"",
+          "pop":50,
+          "qpf_allday": {
+            "in": 0.01,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": null,
+            "mm": null
+          },
+          "qpf_night": {
+            "in": 0.01,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": null,
+            "cm": null
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "North",
+            "degrees": 0
+          },
+          "avewind": {
+            "mph": 9,
+            "kph": 14,
+            "dir": "NNW",
+            "degrees": 0
+          },
+          "avehumidity": 83,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526403600",
+          "pretty":"7:00 PM CEST on May 15, 2018",
+          "day":15,
+          "month":5,
+          "year":2018,
+          "yday":134,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Tue",
+          "weekday":"Tuesday",
+          "ampm":"PM",
+          "tz_short":"CEST",
+          "tz_long":"Europe/Paris"
+        },
+          "period":2,
+          "high": {
+            "fahrenheit":"74",
+            "celsius":"23"
+          },
+          "low": {
+            "fahrenheit":"53",
+            "celsius":"12"
+          },
+          "conditions":"Chance of Rain",
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "skyicon":"",
+          "pop":60,
+          "qpf_allday": {
+            "in": 0.09,
+            "mm": 2
+          },
+          "qpf_day": {
+            "in": 0.08,
+            "mm": 2
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "NNW",
+            "degrees": 339
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 19,
+            "dir": "NNW",
+            "degrees": 339
+          },
+          "avehumidity": 67,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526490000",
+          "pretty":"7:00 PM CEST on May 16, 2018",
+          "day":16,
+          "month":5,
+          "year":2018,
+          "yday":135,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Wed",
+          "weekday":"Wednesday",
+          "ampm":"PM",
+          "tz_short":"CEST",
+          "tz_long":"Europe/Paris"
+        },
+          "period":3,
+          "high": {
+            "fahrenheit":"73",
+            "celsius":"23"
+          },
+          "low": {
+            "fahrenheit":"48",
+            "celsius":"9"
+          },
+          "conditions":"Chance of Rain",
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "skyicon":"",
+          "pop":50,
+          "qpf_allday": {
+            "in": 0.02,
+            "mm": 1
+          },
+          "qpf_day": {
+            "in": 0.02,
+            "mm": 1
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 20,
+            "kph": 32,
+            "dir": "N",
+            "degrees": 356
+          },
+          "avewind": {
+            "mph": 14,
+            "kph": 23,
+            "dir": "N",
+            "degrees": 356
+          },
+          "avehumidity": 62,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526576400",
+          "pretty":"7:00 PM CEST on May 17, 2018",
+          "day":17,
+          "month":5,
+          "year":2018,
+          "yday":136,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Thu",
+          "weekday":"Thursday",
+          "ampm":"PM",
+          "tz_short":"CEST",
+          "tz_long":"Europe/Paris"
+        },
+          "period":4,
+          "high": {
+            "fahrenheit":"66",
+            "celsius":"19"
+          },
+          "low": {
+            "fahrenheit":"46",
+            "celsius":"8"
+          },
+          "conditions":"Partly Cloudy",
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon":"",
+          "pop":0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "NNE",
+            "degrees": 16
+          },
+          "avewind": {
+            "mph": 11,
+            "kph": 18,
+            "dir": "NNE",
+            "degrees": 16
+          },
+          "avehumidity": 56,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}

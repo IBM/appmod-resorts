@@ -1,0 +1,660 @@
+
+{
+  "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast": 1
+    ,
+      "geolookup": 1
+    ,
+      "conditions": 1
+    }
+  }
+,	"location": {
+  "type":"CITY",
+  "country":"US",
+  "country_iso3166":"US",
+  "country_name":"USA",
+  "state":"NV",
+  "city":"Las Vegas",
+  "tz_short":"PDT",
+  "tz_long":"America/Los_Angeles",
+  "lat":"36.16999817",
+  "lon":"-115.12999725",
+  "zip":"89101",
+  "magic":"1",
+  "wmo":"99999",
+  "l":"/q/zmw:89101.1.99999",
+  "requesturl":"US/NV/Las_Vegas.html",
+  "wuiurl":"https://www.wunderground.com/US/NV/Las_Vegas.html",
+  "nearby_weather_stations": {
+    "airport": {
+      "station": [
+        { "city":"North Las Vegas", "state":"NV", "country":"US", "icao":"KVGT", "lat":"36.20999908", "lon":"-115.19999695" }
+      ,{ "city":"Las Vegas", "state":"NV", "country":"US", "icao":"KLAS", "lat":"36.08000183", "lon":"-115.15000153" }
+      ,{ "city":"Nellis AFB", "state":"NV", "country":"US", "icao":"KLSV", "lat":"36.24000168", "lon":"-115.02999878" }
+      ,{ "city":"Henderson", "state":"NV", "country":"US", "icao":"KHND", "lat":"35.97000122", "lon":"-115.12999725" }
+      ]
+    }
+  ,
+    "pws": {
+      "station": [
+        {
+          "neighborhood":"Downtown Las Vegas",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE407",
+          "lat":36.168076,
+          "lon":-115.138252,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Sahara and Mojave - Winchester",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE289",
+          "lat":36.136501,
+          "lon":-115.105179,
+          "distance_km":4,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Bonita Vista",
+          "city":"North Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVNORTH34",
+          "lat":36.204899,
+          "lon":-115.155632,
+          "distance_km":4,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Palimino Area",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE465",
+          "lat":36.161797,
+          "lon":-115.185555,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"",
+          "city":"",
+          "state":"",
+          "country":"",
+          "id":"MKVGT",
+          "lat":36.200001,
+          "lon":-115.180000,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"Twin Palms",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE293",
+          "lat":36.118824,
+          "lon":-115.094742,
+          "distance_km":6,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"South Jones Boulevard",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE234",
+          "lat":36.161232,
+          "lon":-115.223755,
+          "distance_km":8,
+          "distance_mi":5
+        },
+        {
+          "neighborhood":"World of Watson",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE188",
+          "lat":36.091908,
+          "lon":-115.174225,
+          "distance_km":9,
+          "distance_mi":5
+        },
+        {
+          "neighborhood":"Weather station",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE405",
+          "lat":36.167725,
+          "lon":-115.238350,
+          "distance_km":9,
+          "distance_mi":5
+        },
+        {
+          "neighborhood":"Las Vegas",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE441",
+          "lat":36.091846,
+          "lon":-115.185814,
+          "distance_km":10,
+          "distance_mi":6
+        },
+        {
+          "neighborhood":"Las Vegas",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE277",
+          "lat":36.177593,
+          "lon":-115.212952,
+          "distance_km":7,
+          "distance_mi":4
+        },
+        {
+          "neighborhood":"Las Vegas",
+          "city":"Bracken",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVBRACK2",
+          "lat":36.093056,
+          "lon":-115.185341,
+          "distance_km":9,
+          "distance_mi":5
+        },
+        {
+          "neighborhood":"Las Vegas",
+          "city":"Las Vegas",
+          "state":"NV",
+          "country":"US",
+          "id":"KNVLASVE294",
+          "lat":36.091068,
+          "lon":-115.185455,
+          "distance_km":10,
+          "distance_mi":6
+        }
+      ]
+    }
+  }
+}
+,	"current_observation": {
+  "image": {
+    "url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+    "title":"Weather Underground",
+    "link":"http://www.wunderground.com"
+  },
+  "display_location": {
+    "full":"Las Vegas, NV",
+    "city":"Las Vegas",
+    "state":"NV",
+    "state_name":"Nevada",
+    "country":"US",
+    "country_iso3166":"US",
+    "zip":"89101",
+    "magic":"1",
+    "wmo":"99999",
+    "latitude":"36.16999817",
+    "longitude":"-115.12999725",
+    "elevation":"602.0"
+  },
+  "observation_location": {
+    "full":"North Las Vegas, Nevada",
+    "city":"North Las Vegas",
+    "state":"Nevada",
+    "country":"US",
+    "country_iso3166":"US",
+    "latitude":"36.17",
+    "longitude":"-115.14",
+    "elevation":"2014 ft"
+  },
+  "estimated": {
+  },
+  "station_id":"KNVLASVE407",
+  "observation_time":"Last Updated on May 15, 2:25 AM PDT",
+  "observation_time_rfc822":"Tue, 15 May 2018 02:25:46 -0700",
+  "observation_epoch":"1526376346",
+  "local_time_rfc822":"Tue, 15 May 2018 02:26:16 -0700",
+  "local_epoch":"1526376376",
+  "local_tz_short":"PDT",
+  "local_tz_long":"America/Los_Angeles",
+  "local_tz_offset":"-0700",
+  "weather":"Clear",
+  "temperature_string":"70.0 F (21.1 C)",
+  "temp_f":70.0,
+  "temp_c":21.1,
+  "relative_humidity":"35%",
+  "wind_string":"From the WNW at 7.0 MPH",
+  "wind_dir":"WNW",
+  "wind_degrees":293,
+  "wind_mph":7.0,
+  "wind_gust_mph":0,
+  "wind_kph":11.3,
+  "wind_gust_kph":0,
+  "pressure_mb":"1011",
+  "pressure_in":"29.85",
+  "pressure_trend":"-",
+  "dewpoint_string":"41 F (5 C)",
+  "dewpoint_f":41,
+  "dewpoint_c":5,
+  "heat_index_string":"NA",
+  "heat_index_f":"NA",
+  "heat_index_c":"NA",
+  "windchill_string":"NA",
+  "windchill_f":"NA",
+  "windchill_c":"NA",
+  "feelslike_string":"70.0 F (21.1 C)",
+  "feelslike_f":"70.0",
+  "feelslike_c":"21.1",
+  "visibility_mi":"10.0",
+  "visibility_km":"16.1",
+  "solarradiation":"--",
+  "UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+  "precip_1hr_in":"0.00",
+  "precip_1hr_metric":" 0",
+  "precip_today_string":"0.00 in (0 mm)",
+  "precip_today_in":"0.00",
+  "precip_today_metric":"0",
+  "icon":"clear",
+  "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+  "forecast_url":"http://www.wunderground.com/US/NV/Las_Vegas.html",
+  "history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KNVLASVE407",
+  "ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=36.168076,-115.138252",
+  "nowcast":""
+}
+,
+  "forecast":{
+    "txt_forecast": {
+      "date":"1:55 AM PDT",
+      "forecastday": [
+        {
+          "period":0,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Tuesday",
+          "fcttext":"Sunny skies. High around 90F. Winds SSE at 10 to 15 mph.",
+          "fcttext_metric":"Sunny. High 32C. Winds SSE at 15 to 25 km/h.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":1,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Tuesday Night",
+          "fcttext":"A mostly clear sky. Low 67F. Winds SSW at 10 to 15 mph.",
+          "fcttext_metric":"Clear. Low near 20C. Winds SSW at 15 to 25 km/h.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":2,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Wednesday",
+          "fcttext":"Mainly sunny. High 92F. Winds S at 10 to 20 mph.",
+          "fcttext_metric":"A mainly sunny sky. High 33C. Winds S at 15 to 30 km/h.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":3,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Wednesday Night",
+          "fcttext":"Clear skies. Low 66F. Winds SW at 10 to 20 mph.",
+          "fcttext_metric":"Clear skies. Low 19C. Winds SW at 15 to 30 km/h.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":4,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Thursday",
+          "fcttext":"Mainly sunny. High 89F. Winds SW at 10 to 15 mph.",
+          "fcttext_metric":"Mainly sunny. High 31C. Winds SW at 15 to 25 km/h.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":5,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Thursday Night",
+          "fcttext":"A mostly clear sky. Low 66F. Winds W at 10 to 15 mph.",
+          "fcttext_metric":"A mostly clear sky. Low 19C. Winds WSW at 15 to 25 km/h.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":6,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Friday",
+          "fcttext":"Sunny. High 89F. Winds light and variable.",
+          "fcttext_metric":"Mainly sunny. High 32C. Winds light and variable.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":7,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Friday Night",
+          "fcttext":"Clear. Low 69F. Winds W at 5 to 10 mph.",
+          "fcttext_metric":"A mostly clear sky. Low 21C. Winds W at 10 to 15 km/h.",
+          "pop":"0"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {"date":{
+          "epoch":"1526436000",
+          "pretty":"7:00 PM PDT on May 15, 2018",
+          "day":15,
+          "month":5,
+          "year":2018,
+          "yday":134,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Tue",
+          "weekday":"Tuesday",
+          "ampm":"PM",
+          "tz_short":"PDT",
+          "tz_long":"America/Los_Angeles"
+        },
+          "period":1,
+          "high": {
+            "fahrenheit":"90",
+            "celsius":"32"
+          },
+          "low": {
+            "fahrenheit":"67",
+            "celsius":"19"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SSE",
+            "degrees": 152
+          },
+          "avewind": {
+            "mph": 11,
+            "kph": 18,
+            "dir": "SSE",
+            "degrees": 152
+          },
+          "avehumidity": 17,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526522400",
+          "pretty":"7:00 PM PDT on May 16, 2018",
+          "day":16,
+          "month":5,
+          "year":2018,
+          "yday":135,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Wed",
+          "weekday":"Wednesday",
+          "ampm":"PM",
+          "tz_short":"PDT",
+          "tz_long":"America/Los_Angeles"
+        },
+          "period":2,
+          "high": {
+            "fahrenheit":"92",
+            "celsius":"33"
+          },
+          "low": {
+            "fahrenheit":"66",
+            "celsius":"19"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 20,
+            "kph": 32,
+            "dir": "S",
+            "degrees": 185
+          },
+          "avewind": {
+            "mph": 16,
+            "kph": 26,
+            "dir": "S",
+            "degrees": 185
+          },
+          "avehumidity": 11,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526608800",
+          "pretty":"7:00 PM PDT on May 17, 2018",
+          "day":17,
+          "month":5,
+          "year":2018,
+          "yday":136,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Thu",
+          "weekday":"Thursday",
+          "ampm":"PM",
+          "tz_short":"PDT",
+          "tz_long":"America/Los_Angeles"
+        },
+          "period":3,
+          "high": {
+            "fahrenheit":"89",
+            "celsius":"32"
+          },
+          "low": {
+            "fahrenheit":"66",
+            "celsius":"19"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SW",
+            "degrees": 235
+          },
+          "avewind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "SW",
+            "degrees": 235
+          },
+          "avehumidity": 13,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526695200",
+          "pretty":"7:00 PM PDT on May 18, 2018",
+          "day":18,
+          "month":5,
+          "year":2018,
+          "yday":137,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Fri",
+          "weekday":"Friday",
+          "ampm":"PM",
+          "tz_short":"PDT",
+          "tz_long":"America/Los_Angeles"
+        },
+          "period":4,
+          "high": {
+            "fahrenheit":"89",
+            "celsius":"32"
+          },
+          "low": {
+            "fahrenheit":"69",
+            "celsius":"21"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "NW",
+            "degrees": 311
+          },
+          "avewind": {
+            "mph": 5,
+            "kph": 8,
+            "dir": "NW",
+            "degrees": 311
+          },
+          "avehumidity": 17,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}

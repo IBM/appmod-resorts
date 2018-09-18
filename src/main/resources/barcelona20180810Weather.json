@@ -1,0 +1,527 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"SP",
+		"country_iso3166":"ES",
+		"country_name":"Spain",
+		"state":"B",
+		"city":"Barcelona",
+		"tz_short":"CEST",
+		"tz_long":"Europe/Madrid",
+		"lat":"41.38999939",
+		"lon":"2.16000009",
+		"zip":"00000",
+		"magic":"17",
+		"wmo":"08181",
+		"l":"/q/zmw:00000.17.08181",
+		"requesturl":"global/stations/08181.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/08181.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Barcelona / Aeropuerto", "state":"", "country":"Spain", "icao":"LEBL", "lat":"41.28333282", "lon":"2.06666708" }
+		,{ "city":"Barcelona", "state":"", "country":"ES", "icao":"LEBL", "lat":"41.27999878", "lon":"2.06999993" }
+		,{ "city":"Sabadell", "state":"", "country":"ES", "icao":"LELL", "lat":"41.52000046", "lon":"2.09999990" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"EscolaIndustrial/Clinic",
+		"city":"Barcelona",
+		"state":"CATALUNYA",
+		"country":"ES",
+		"id":"ICATALUN165",
+		"lat":41.390606,
+		"lon":2.149029,
+		"distance_km":0,
+		"distance_mi":0
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Barcelona, Spain",
+		"city":"Barcelona",
+		"state":"B",
+		"state_name":"Spain",
+		"country":"SP",
+		"country_iso3166":"ES",
+		"zip":"00000",
+		"magic":"17",
+		"wmo":"08181",
+		"latitude":"41.38999939",
+		"longitude":"2.16000009",
+		"elevation":"3.0"
+		},
+		"observation_location": {
+		"full":"Barcelona, CATALUNYA",
+		"city":"Barcelona",
+		"state":"CATALUNYA",
+		"country":"ES",
+		"country_iso3166":"ES",
+		"latitude":"41.39",
+		"longitude":"2.15",
+		"elevation":"164 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"ICATALUN165",
+		"observation_time":"Last Updated on August 10, 4:06 PM CEST",
+		"observation_time_rfc822":"Thu, 09 Aug 2018 16:06:55 +0200",
+		"observation_epoch":"1533823615",
+		"local_time_rfc822":"Thu, 09 Aug 2018 16:07:09 +0200",
+		"local_epoch":"1533823629",
+		"local_tz_short":"CEST",
+		"local_tz_long":"Europe/Madrid",
+		"local_tz_offset":"+0200",
+		"weather":"Partly Cloudy",
+		"temperature_string":"87.3 F (30.7 C)",
+		"temp_f":87.3,
+		"temp_c":30.7,
+		"relative_humidity":"63%",
+		"wind_string":"Calm",
+		"wind_dir":"SSW",
+		"wind_degrees":210,
+		"wind_mph":0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1014",
+		"pressure_in":"29.95",
+		"pressure_trend":"-",
+		"dewpoint_string":"73 F (23 C)",
+		"dewpoint_f":73,
+		"dewpoint_c":23,
+		"heat_index_string":"95 F (35 C)",
+		"heat_index_f":95,
+		"heat_index_c":35,
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"95 F (35 C)",
+		"feelslike_f":"95",
+		"feelslike_c":"35",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"82",
+		"UV":"1.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/08181.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=ICATALUN165",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=41.390606,2.149029",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"3:06 PM CEST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"title":"Thursday",
+		"fcttext":"Thunderstorms likely early. Lows overnight in the low 70s.",
+		"fcttext_metric":"",
+		"pop":"40"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+		"title":"Thursday Night",
+		"fcttext":"Scattered thunderstorms during the evening. Partly cloudy skies after midnight. Low around 70F. Winds ENE at 10 to 15 mph. Chance of rain 40%.",
+		"fcttext_metric":"",
+		"pop":"40"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Friday",
+		"fcttext":"Sunshine and clouds mixed. High 82F. NNE winds shifting to SE at 10 to 15 mph.",
+		"fcttext_metric":"",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Friday Night",
+		"fcttext":"A few clouds from time to time. Low 69F. Winds NE at 5 to 10 mph.",
+		"fcttext_metric":"",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Saturday",
+		"fcttext":"Mostly sunny. High 84F. N winds shifting to S at 10 to 15 mph.",
+		"fcttext_metric":"",
+		"pop":"0"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Saturday Night",
+		"fcttext":"Mostly clear. Low 71F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"",
+		"pop":"10"
+		}
+		,
+		{
+		"period":6,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Intervals of clouds and sunshine. High 86F. Winds WSW at 10 to 20 mph.",
+		"fcttext_metric":"",
+		"pop":"10"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"title":"Sunday Night",
+		"fcttext":"Partly cloudy with late night showers or thunderstorms. Low 72F. Winds WSW at 10 to 15 mph. Chance of rain 40%.",
+		"fcttext_metric":"",
+		"pop":"40"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1533834000",
+	"pretty":"7:00 PM CEST on August 09, 2018",
+	"day":9,
+	"month":8,
+	"year":2018,
+	"yday":220,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Madrid"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"87",
+		"celsius":"30"
+		},
+		"low": {
+		"fahrenheit":"70",
+		"celsius":"21"
+		},
+		"conditions":"Chance of a Thunderstorm",
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"skyicon":"",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.01,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.01,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 14,
+		"kph": 22,
+		"dir": "South",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "SSW",
+		"degrees": 0
+		},
+		"avehumidity": 74,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1533920400",
+	"pretty":"7:00 PM CEST on August 10, 2018",
+	"day":10,
+	"month":8,
+	"year":2018,
+	"yday":221,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Madrid"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"82",
+		"celsius":"28"
+		},
+		"low": {
+		"fahrenheit":"69",
+		"celsius":"21"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "E",
+		"degrees": 87
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "E",
+		"degrees": 87
+		},
+		"avehumidity": 63,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534006800",
+	"pretty":"7:00 PM CEST on August 11, 2018",
+	"day":11,
+	"month":8,
+	"year":2018,
+	"yday":222,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Madrid"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"84",
+		"celsius":"29"
+		},
+		"low": {
+		"fahrenheit":"71",
+		"celsius":"22"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "S",
+		"degrees": 183
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "S",
+		"degrees": 183
+		},
+		"avehumidity": 62,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534093200",
+	"pretty":"7:00 PM CEST on August 12, 2018",
+	"day":12,
+	"month":8,
+	"year":2018,
+	"yday":223,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Madrid"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"86",
+		"celsius":"30"
+		},
+		"low": {
+		"fahrenheit":"72",
+		"celsius":"22"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.04,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.04,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "WSW",
+		"degrees": 239
+		},
+		"avewind": {
+		"mph": 13,
+		"kph": 21,
+		"dir": "WSW",
+		"degrees": 239
+		},
+		"avehumidity": 71,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

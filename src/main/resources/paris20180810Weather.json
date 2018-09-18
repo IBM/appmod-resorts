@@ -1,0 +1,516 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"FR",
+		"country_iso3166":"FR",
+		"country_name":"France",
+		"state":"75",
+		"city":"Paris",
+		"tz_short":"CEST",
+		"tz_long":"Europe/Paris",
+		"lat":"48.86000061",
+		"lon":"2.34999990",
+		"zip":"00000",
+		"magic":"45",
+		"wmo":"07156",
+		"l":"/q/zmw:00000.45.07156",
+		"requesturl":"global/stations/07156.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/07156.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Paris-Montsouris", "state":"", "country":"France", "icao":"----", "lat":"48.81666565", "lon":"2.33333302" }
+		,{ "city":"Paris Le Bourget", "state":"", "country":"FR", "icao":"LFPB", "lat":"48.97000122", "lon":"2.45000005" }
+		,{ "city":"Villacoublay", "state":"", "country":"FR", "icao":"LFPV", "lat":"48.77000046", "lon":"2.20000005" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Paris, France",
+		"city":"Paris",
+		"state":"75",
+		"state_name":"France",
+		"country":"FR",
+		"country_iso3166":"FR",
+		"zip":"00000",
+		"magic":"45",
+		"wmo":"07156",
+		"latitude":"48.86000061",
+		"longitude":"2.34999990",
+		"elevation":"86.0"
+		},
+		"observation_location": {
+		"full":"Villacoublay, ",
+		"city":"Villacoublay",
+		"state":"",
+		"country":"FR",
+		"country_iso3166":"FR",
+		"latitude":"48.77",
+		"longitude":"2.20",
+		"elevation":"587 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"LFPV",
+		"observation_time":"Last Updated on August 10, 3:30 PM CEST",
+		"observation_time_rfc822":"Thu, 09 Aug 2018 15:30:00 +0200",
+		"observation_epoch":"1533821400",
+		"local_time_rfc822":"Thu, 09 Aug 2018 15:57:02 +0200",
+		"local_epoch":"1533823022",
+		"local_tz_short":"CEST",
+		"local_tz_long":"Europe/Paris",
+		"local_tz_offset":"+0200",
+		"weather":"Overcast",
+		"temperature_string":"64 F (18 C)",
+		"temp_f":64,
+		"temp_c":18,
+		"relative_humidity":"83%",
+		"wind_string":"From the West at 10 MPH",
+		"wind_dir":"West",
+		"wind_degrees":260,
+		"wind_mph":10,
+		"wind_gust_mph":0,
+		"wind_kph":17,
+		"wind_gust_kph":0,
+		"pressure_mb":"1013",
+		"pressure_in":"29.92",
+		"pressure_trend":"+",
+		"dewpoint_string":"59 F (15 C)",
+		"dewpoint_f":59,
+		"dewpoint_c":15,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"64 F (18 C)",
+		"feelslike_f":"64",
+		"feelslike_c":"18",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"--",
+		"UV":"4","precip_1hr_string":"-9999.00 in (-9999.00 mm)",
+		"precip_1hr_in":"-9999.00",
+		"precip_1hr_metric":"--",
+		"precip_today_string":"0.00 in (0.0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0.0",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/07156.html",
+		"history_url":"http://www.wunderground.com/history/airport/LFPV/2018/8/9/DailyHistory.html",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=48.77000046,2.20000005",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"2:44 PM CEST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Thursday",
+		"fcttext":"Showers ending early. Lows overnight in the mid 50s.",
+		"fcttext_metric":"",
+		"pop":"40"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Thursday Night",
+		"fcttext":"Rain showers early, then clear overnight. Low around 55F. Winds W at 10 to 20 mph. Chance of rain 40%.",
+		"fcttext_metric":"",
+		"pop":"40"
+		}
+		,
+		{
+		"period":2,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Friday",
+		"fcttext":"Generally sunny despite a few afternoon clouds. High 76F. Winds WSW at 10 to 15 mph.",
+		"fcttext_metric":"",
+		"pop":"10"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Friday Night",
+		"fcttext":"Partly cloudy. Low 57F. Winds W at 10 to 15 mph.",
+		"fcttext_metric":"",
+		"pop":"10"
+		}
+		,
+		{
+		"period":4,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday",
+		"fcttext":"Sunshine and clouds mixed. High 79F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"",
+		"pop":"10"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Saturday Night",
+		"fcttext":"Partly cloudy. Low near 60F. Winds light and variable.",
+		"fcttext_metric":"",
+		"pop":"0"
+		}
+		,
+		{
+		"period":6,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Sunday",
+		"fcttext":"Sunny skies. High 89F. Winds S at 5 to 10 mph.",
+		"fcttext_metric":"",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Sunday Night",
+		"fcttext":"Partly cloudy. Low near 65F. Winds S at 5 to 10 mph.",
+		"fcttext_metric":"",
+		"pop":"20"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1533834000",
+	"pretty":"7:00 PM CEST on August 09, 2018",
+	"day":9,
+	"month":8,
+	"year":2018,
+	"yday":220,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Paris"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"",
+		"celsius":""
+		},
+		"low": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 0,
+		"kph": 0,
+		"dir": "",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 0,
+		"kph": 0,
+		"dir": "",
+		"degrees": 0
+		},
+		"avehumidity": 69,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1533920400",
+	"pretty":"7:00 PM CEST on August 10, 2018",
+	"day":10,
+	"month":8,
+	"year":2018,
+	"yday":221,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Paris"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"76",
+		"celsius":"24"
+		},
+		"low": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WSW",
+		"degrees": 240
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "WSW",
+		"degrees": 240
+		},
+		"avehumidity": 51,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534006800",
+	"pretty":"7:00 PM CEST on August 11, 2018",
+	"day":11,
+	"month":8,
+	"year":2018,
+	"yday":222,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Paris"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"79",
+		"celsius":"26"
+		},
+		"low": {
+		"fahrenheit":"60",
+		"celsius":"16"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 251
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "WSW",
+		"degrees": 251
+		},
+		"avehumidity": 56,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534093200",
+	"pretty":"7:00 PM CEST on August 12, 2018",
+	"day":12,
+	"month":8,
+	"year":2018,
+	"yday":223,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Paris"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"89",
+		"celsius":"32"
+		},
+		"low": {
+		"fahrenheit":"65",
+		"celsius":"18"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "S",
+		"degrees": 171
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "S",
+		"degrees": 171
+		},
+		"avehumidity": 43,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

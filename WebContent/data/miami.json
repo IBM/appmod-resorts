@@ -1,0 +1,674 @@
+
+{
+  "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast": 1
+    ,
+      "geolookup": 1
+    ,
+      "conditions": 1
+    }
+  }
+,	"location": {
+  "type":"CITY",
+  "country":"US",
+  "country_iso3166":"US",
+  "country_name":"USA",
+  "state":"FL",
+  "city":"Miami",
+  "tz_short":"EDT",
+  "tz_long":"America/New_York",
+  "lat":"25.78000069",
+  "lon":"-80.19999695",
+  "zip":"33101",
+  "magic":"1",
+  "wmo":"99999",
+  "l":"/q/zmw:33101.1.99999",
+  "requesturl":"US/FL/Miami.html",
+  "wuiurl":"https://www.wunderground.com/US/FL/Miami.html",
+  "nearby_weather_stations": {
+    "airport": {
+      "station": [
+        { "city":"Miami", "state":"FL", "country":"US", "icao":"KMIA", "lat":"25.79000092", "lon":"-80.29000092" }
+      ,{ "city":"Opa Locka", "state":"FL", "country":"US", "icao":"KOPF", "lat":"25.90999985", "lon":"-80.27999878" }
+      ,{ "city":"", "state":"", "country":"", "icao":"", "lat":"", "lon":"" }
+      ,{ "city":"Kendall", "state":"FL", "country":"US", "icao":"KTMB", "lat":"25.64999962", "lon":"-80.43000031" }
+      ]
+    }
+  ,
+    "pws": {
+      "station": [
+        {
+          "neighborhood":"Frost Museum of Science WeatherSTEM",
+          "city":"Miami",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI361",
+          "lat":25.785189,
+          "lon":-80.187874,
+          "distance_km":1,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"U of Miami Health System WeatherSTEM",
+          "city":"Miami",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI208",
+          "lat":25.787811,
+          "lon":-80.215965,
+          "distance_km":1,
+          "distance_mi":1
+        },
+        {
+          "neighborhood":"The Vue at Brickell",
+          "city":"Miami",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI218",
+          "lat":25.761673,
+          "lon":-80.193413,
+          "distance_km":2,
+          "distance_mi":1
+        },
+        {
+          "neighborhood":"Miami",
+          "city":"Bay Heights",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLBAYHE3",
+          "lat":25.749083,
+          "lon":-80.221321,
+          "distance_km":4,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Dilido Island",
+          "city":"Miami Beach",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI109",
+          "lat":25.789051,
+          "lon":-80.159882,
+          "distance_km":4,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Coral Gables Home Roof Station",
+          "city":"Miami",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI403",
+          "lat":25.752899,
+          "lon":-80.233299,
+          "distance_km":4,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"N Coconut Gove",
+          "city":"Miami",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI394",
+          "lat":25.737513,
+          "lon":-80.221092,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"Valencia Drive",
+          "city":"Miami Beach",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI165",
+          "lat":25.763594,
+          "lon":-80.148338,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"The Pines",
+          "city":"Miami",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI286",
+          "lat":25.745592,
+          "lon":-80.240952,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"Miami Beach",
+          "city":"Miami Beach",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI362",
+          "lat":25.789732,
+          "lon":-80.144798,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"Coral Gables",
+          "city":"Miami",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI397",
+          "lat":25.749575,
+          "lon":-80.245682,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"Key Biscayne",
+          "city":"Miami Beach",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI412",
+          "lat":25.761715,
+          "lon":-80.146721,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"West 22nd Street",
+          "city":"Miami Beach",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI181",
+          "lat":25.798080,
+          "lon":-80.144012,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"U of Miami Rosenstiel School WeatherSTEM",
+          "city":"Miami",
+          "state":"FL",
+          "country":"US",
+          "id":"KFLMIAMI207",
+          "lat":25.732304,
+          "lon":-80.162712,
+          "distance_km":6,
+          "distance_mi":3
+        }
+      ]
+    }
+  }
+}
+,	"current_observation": {
+  "image": {
+    "url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+    "title":"Weather Underground",
+    "link":"http://www.wunderground.com"
+  },
+  "display_location": {
+    "full":"Miami, FL",
+    "city":"Miami",
+    "state":"FL",
+    "state_name":"Florida",
+    "country":"US",
+    "country_iso3166":"US",
+    "zip":"33101",
+    "magic":"1",
+    "wmo":"99999",
+    "latitude":"25.78000069",
+    "longitude":"-80.19999695",
+    "elevation":"10.1"
+  },
+  "observation_location": {
+    "full":"Miami, Florida",
+    "city":"Miami",
+    "state":"Florida",
+    "country":"US",
+    "country_iso3166":"US",
+    "latitude":"25.79",
+    "longitude":"-80.19",
+    "elevation":"32 ft"
+  },
+  "estimated": {
+  },
+  "station_id":"KFLMIAMI361",
+  "observation_time":"Last Updated on May 15, 5:23 AM EDT",
+  "observation_time_rfc822":"Tue, 15 May 2018 05:23:39 -0400",
+  "observation_epoch":"1526376219",
+  "local_time_rfc822":"Tue, 15 May 2018 05:27:43 -0400",
+  "local_epoch":"1526376463",
+  "local_tz_short":"EDT",
+  "local_tz_long":"America/New_York",
+  "local_tz_offset":"-0400",
+  "weather":"Partly Cloudy",
+  "temperature_string":"76.6 F (24.8 C)",
+  "temp_f":76.6,
+  "temp_c":24.8,
+  "relative_humidity":"83%",
+  "wind_string":"From the South at 6.0 MPH",
+  "wind_dir":"South",
+  "wind_degrees":172,
+  "wind_mph":6.0,
+  "wind_gust_mph":0,
+  "wind_kph":9.7,
+  "wind_gust_kph":0,
+  "pressure_mb":"1013",
+  "pressure_in":"29.93",
+  "pressure_trend":"-",
+  "dewpoint_string":"71 F (22 C)",
+  "dewpoint_f":71,
+  "dewpoint_c":22,
+  "heat_index_string":"NA",
+  "heat_index_f":"NA",
+  "heat_index_c":"NA",
+  "windchill_string":"NA",
+  "windchill_f":"NA",
+  "windchill_c":"NA",
+  "feelslike_string":"76.6 F (24.8 C)",
+  "feelslike_f":"76.6",
+  "feelslike_c":"24.8",
+  "visibility_mi":"10.0",
+  "visibility_km":"16.1",
+  "solarradiation":"0",
+  "UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+  "precip_1hr_in":"0.00",
+  "precip_1hr_metric":" 0",
+  "precip_today_string":"0.00 in (0 mm)",
+  "precip_today_in":"0.00",
+  "precip_today_metric":"0",
+  "soil_temp_f": "82.0",
+  "soil_moisture": "2.0",
+  "leaf_wetness": "0.0",
+  "icon":"partlycloudy",
+  "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+  "forecast_url":"http://www.wunderground.com/US/FL/Miami.html",
+  "history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KFLMIAMI361",
+  "ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=25.785189,-80.187874",
+  "nowcast":""
+}
+,
+  "forecast":{
+    "txt_forecast": {
+      "date":"4:05 AM EDT",
+      "forecastday": [
+        {
+          "period":0,
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title":"Tuesday",
+          "fcttext":"Partly cloudy. High 83F. Winds SSE at 10 to 15 mph.",
+          "fcttext_metric":"Partly cloudy. High 28C. Winds SSE at 15 to 25 km/h.",
+          "pop":"20"
+        }
+      ,
+        {
+          "period":1,
+          "icon":"nt_chancetstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+          "title":"Tuesday Night",
+          "fcttext":"Scattered thunderstorms. Low 76F. Winds SSE at 10 to 15 mph. Chance of rain 50%.",
+          "fcttext_metric":"Variable clouds with scattered thunderstorms. Low 24C. Winds SSE at 10 to 15 km/h. Chance of rain 50%.",
+          "pop":"50"
+        }
+      ,
+        {
+          "period":2,
+          "icon":"chancetstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+          "title":"Wednesday",
+          "fcttext":"Variable clouds with scattered thunderstorms. High 83F. Winds SSE at 10 to 15 mph. Chance of rain 40%.",
+          "fcttext_metric":"Variable clouds with scattered thunderstorms. High 28C. Winds SSE at 15 to 25 km/h. Chance of rain 40%.",
+          "pop":"40"
+        }
+      ,
+        {
+          "period":3,
+          "icon":"nt_tstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+          "title":"Wednesday Night",
+          "fcttext":"Scattered thunderstorms during the evening becoming more widespread overnight. Low around 75F. Winds SSE at 10 to 15 mph. Chance of rain 80%.",
+          "fcttext_metric":"Thunderstorms likely. Low 24C. Winds SSE at 15 to 25 km/h. Chance of rain 80%.",
+          "pop":"80"
+        }
+      ,
+        {
+          "period":4,
+          "icon":"tstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/tstorms.gif",
+          "title":"Thursday",
+          "fcttext":"Thunderstorms. High around 80F. Winds SSE at 10 to 15 mph. Chance of rain 90%.",
+          "fcttext_metric":"Thunderstorms. High 27C. Winds SSE at 15 to 25 km/h. Chance of rain 90%.",
+          "pop":"90"
+        }
+      ,
+        {
+          "period":5,
+          "icon":"nt_tstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+          "title":"Thursday Night",
+          "fcttext":"Scattered thunderstorms during the evening becoming more widespread overnight. Low 74F. Winds SE at 5 to 10 mph. Chance of rain 90%.",
+          "fcttext_metric":"Scattered thunderstorms during the evening becoming more widespread overnight. Low 24C. Winds SE at 10 to 15 km/h. Chance of rain 90%.",
+          "pop":"90"
+        }
+      ,
+        {
+          "period":6,
+          "icon":"tstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/tstorms.gif",
+          "title":"Friday",
+          "fcttext":"Thunderstorms likely. High near 80F. Winds SE at 10 to 15 mph. Chance of rain 100%.",
+          "fcttext_metric":"Thunderstorms likely. High 27C. Winds SE at 15 to 25 km/h. Chance of rain 100%.",
+          "pop":"100"
+        }
+      ,
+        {
+          "period":7,
+          "icon":"nt_tstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+          "title":"Friday Night",
+          "fcttext":"Thunderstorms. Low 74F. Winds SE at 10 to 15 mph. Chance of rain 90%.",
+          "fcttext_metric":"Thunderstorms likely. Low 24C. Winds SE at 10 to 15 km/h. Chance of rain 90%.",
+          "pop":"90"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {"date":{
+          "epoch":"1526425200",
+          "pretty":"7:00 PM EDT on May 15, 2018",
+          "day":15,
+          "month":5,
+          "year":2018,
+          "yday":134,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Tue",
+          "weekday":"Tuesday",
+          "ampm":"PM",
+          "tz_short":"EDT",
+          "tz_long":"America/New_York"
+        },
+          "period":1,
+          "high": {
+            "fahrenheit":"83",
+            "celsius":"28"
+          },
+          "low": {
+            "fahrenheit":"76",
+            "celsius":"24"
+          },
+          "conditions":"Partly Cloudy",
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon":"",
+          "pop":20,
+          "qpf_allday": {
+            "in": 0.07,
+            "mm": 2
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.07,
+            "mm": 2
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SSE",
+            "degrees": 156
+          },
+          "avewind": {
+            "mph": 11,
+            "kph": 18,
+            "dir": "SSE",
+            "degrees": 156
+          },
+          "avehumidity": 79,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526511600",
+          "pretty":"7:00 PM EDT on May 16, 2018",
+          "day":16,
+          "month":5,
+          "year":2018,
+          "yday":135,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Wed",
+          "weekday":"Wednesday",
+          "ampm":"PM",
+          "tz_short":"EDT",
+          "tz_long":"America/New_York"
+        },
+          "period":2,
+          "high": {
+            "fahrenheit":"83",
+            "celsius":"28"
+          },
+          "low": {
+            "fahrenheit":"75",
+            "celsius":"24"
+          },
+          "conditions":"Chance of a Thunderstorm",
+          "icon":"chancetstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+          "skyicon":"",
+          "pop":40,
+          "qpf_allday": {
+            "in": 0.34,
+            "mm": 9
+          },
+          "qpf_day": {
+            "in": 0.14,
+            "mm": 4
+          },
+          "qpf_night": {
+            "in": 0.20,
+            "mm": 5
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SSE",
+            "degrees": 161
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 19,
+            "dir": "SSE",
+            "degrees": 161
+          },
+          "avehumidity": 79,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526598000",
+          "pretty":"7:00 PM EDT on May 17, 2018",
+          "day":17,
+          "month":5,
+          "year":2018,
+          "yday":136,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Thu",
+          "weekday":"Thursday",
+          "ampm":"PM",
+          "tz_short":"EDT",
+          "tz_long":"America/New_York"
+        },
+          "period":3,
+          "high": {
+            "fahrenheit":"80",
+            "celsius":"27"
+          },
+          "low": {
+            "fahrenheit":"74",
+            "celsius":"23"
+          },
+          "conditions":"Thunderstorm",
+          "icon":"tstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/tstorms.gif",
+          "skyicon":"",
+          "pop":90,
+          "qpf_allday": {
+            "in": 0.71,
+            "mm": 18
+          },
+          "qpf_day": {
+            "in": 0.40,
+            "mm": 10
+          },
+          "qpf_night": {
+            "in": 0.31,
+            "mm": 8
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SSE",
+            "degrees": 153
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 19,
+            "dir": "SSE",
+            "degrees": 153
+          },
+          "avehumidity": 82,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526684400",
+          "pretty":"7:00 PM EDT on May 18, 2018",
+          "day":18,
+          "month":5,
+          "year":2018,
+          "yday":137,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Fri",
+          "weekday":"Friday",
+          "ampm":"PM",
+          "tz_short":"EDT",
+          "tz_long":"America/New_York"
+        },
+          "period":4,
+          "high": {
+            "fahrenheit":"80",
+            "celsius":"27"
+          },
+          "low": {
+            "fahrenheit":"74",
+            "celsius":"23"
+          },
+          "conditions":"Thunderstorm",
+          "icon":"tstorms",
+          "icon_url":"http://icons.wxug.com/i/c/k/tstorms.gif",
+          "skyicon":"",
+          "pop":100,
+          "qpf_allday": {
+            "in": 0.59,
+            "mm": 15
+          },
+          "qpf_day": {
+            "in": 0.38,
+            "mm": 10
+          },
+          "qpf_night": {
+            "in": 0.21,
+            "mm": 5
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SE",
+            "degrees": 143
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 19,
+            "dir": "SE",
+            "degrees": 143
+          },
+          "avehumidity": 78,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}

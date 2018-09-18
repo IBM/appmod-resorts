@@ -1,0 +1,616 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"IE",
+		"country_iso3166":"IE",
+		"country_name":"Ireland",
+		"state":"CO",
+		"city":"Cork",
+		"tz_short":"IST",
+		"tz_long":"Europe/Dublin",
+		"lat":"51.90000153",
+		"lon":"-8.47000027",
+		"zip":"00000",
+		"magic":"3",
+		"wmo":"03955",
+		"l":"/q/zmw:00000.3.03955",
+		"requesturl":"global/stations/03955.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/03955.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Cork Airport", "state":"", "country":"Ireland", "icao":"EICK", "lat":"51.84999847", "lon":"-8.48333263" }
+		,{ "city":"Cork", "state":"", "country":"IE", "icao":"EICK", "lat":"51.84999847", "lon":"-8.47999954" }
+		,{ "city":"Kerry Airport", "state":"", "country":"IE", "icao":"EIKY", "lat":"52.18000031", "lon":"-9.52000046" }
+		,{ "city":"Shannon", "state":"", "country":"IE", "icao":"EINN", "lat":"52.70000076", "lon":"-8.92000008" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"The Lough, Cork",
+		"city":"Bridewell",
+		"state":"",
+		"country":"IE",
+		"id":"IBRIDEWE3",
+		"lat":51.889446,
+		"lon":-8.490314,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Douglas Rd.",
+		"city":"Cork",
+		"state":"CORK",
+		"country":"IE",
+		"id":"ICORKCOR19",
+		"lat":51.884415,
+		"lon":-8.449474,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Ballinlough",
+		"city":"Cork",
+		"state":"CORK",
+		"country":"IE",
+		"id":"ICORKCOR21",
+		"lat":51.888676,
+		"lon":-8.439294,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Cork",
+		"city":"Cork",
+		"state":"Cork",
+		"country":"IE",
+		"id":"IMUNSTER11",
+		"lat":51.899879,
+		"lon":-8.402870,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Marwood",
+		"city":"Glanmire",
+		"state":"",
+		"country":"IE",
+		"id":"IGLANMIR3",
+		"lat":51.926369,
+		"lon":-8.382360,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Old Quarter, Ballincollig",
+		"city":"Ballincollig",
+		"state":"",
+		"country":"IE",
+		"id":"IBALLINC7",
+		"lat":51.888302,
+		"lon":-8.589400,
+		"distance_km":8,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Buncoille",
+		"city":"Passage West",
+		"state":"",
+		"country":"IE",
+		"id":"IPASSAGE3",
+		"lat":51.840908,
+		"lon":-8.344137,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Cork Harbour",
+		"city":"Cobh",
+		"state":"",
+		"country":"IE",
+		"id":"ICOBH3",
+		"lat":51.852604,
+		"lon":-8.290218,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Beaufort Building, MaREI",
+		"city":"Carrigaline",
+		"state":"",
+		"country":"IE",
+		"id":"ICARRIGA4",
+		"lat":51.834286,
+		"lon":-8.302237,
+		"distance_km":13,
+		"distance_mi":8
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Cork, Ireland",
+		"city":"Cork",
+		"state":"CO",
+		"state_name":"Ireland",
+		"country":"IE",
+		"country_iso3166":"IE",
+		"zip":"00000",
+		"magic":"3",
+		"wmo":"03955",
+		"latitude":"51.90000153",
+		"longitude":"-8.47000027",
+		"elevation":"125.0"
+		},
+		"observation_location": {
+		"full":"Cork, ",
+		"city":"Cork",
+		"state":"",
+		"country":"IE",
+		"country_iso3166":"IE",
+		"latitude":"51.89",
+		"longitude":"-8.49",
+		"elevation":"112 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IBRIDEWE3",
+		"observation_time":"Last Updated on August 10, 3:06 PM IST",
+		"observation_time_rfc822":"Thu, 09 Aug 2018 15:06:04 +0100",
+		"observation_epoch":"1533823564",
+		"local_time_rfc822":"Thu, 09 Aug 2018 15:06:34 +0100",
+		"local_epoch":"1533823594",
+		"local_tz_short":"IST",
+		"local_tz_long":"Europe/Dublin",
+		"local_tz_offset":"+0100",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"61.9 F (16.6 C)",
+		"temp_f":61.9,
+		"temp_c":16.6,
+		"relative_humidity":"72%",
+		"wind_string":"From the WSW at 4.7 MPH Gusting to 4.9 MPH",
+		"wind_dir":"WSW",
+		"wind_degrees":258,
+		"wind_mph":4.7,
+		"wind_gust_mph":"4.9",
+		"wind_kph":7.6,
+		"wind_gust_kph":"7.9",
+		"pressure_mb":"1014",
+		"pressure_in":"29.95",
+		"pressure_trend":"0",
+		"dewpoint_string":"53 F (12 C)",
+		"dewpoint_f":53,
+		"dewpoint_c":12,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"61.9 F (16.6 C)",
+		"feelslike_f":"61.9",
+		"feelslike_c":"16.6",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"203",
+		"UV":"2.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.02 in (1 mm)",
+		"precip_today_in":"0.02",
+		"precip_today_metric":"1",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/03955.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IBRIDEWE3",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=51.889446,-8.490314",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"1:49 PM IST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Thursday",
+		"fcttext":"Considerable cloudiness with occasional rain showers. High near 65F. Winds W at 10 to 15 mph. Chance of rain 50%.",
+		"fcttext_metric":"Considerable cloudiness with occasional rain showers. High 19C. Winds W at 15 to 25 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Thursday Night",
+		"fcttext":"Some clouds. Low 48F. Winds W at 10 to 15 mph.",
+		"fcttext_metric":"Some clouds. Low 9C. Winds W at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":2,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Friday",
+		"fcttext":"Partly cloudy skies during the morning hours will become overcast in the afternoon. Slight chance of a rain shower. High 67F. Winds W at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy skies during the morning hours will become overcast in the afternoon. Slight chance of a rain shower. High near 20C. Winds W at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Friday Night",
+		"fcttext":"Partly cloudy skies early will give way to cloudy skies and light rain after midnight. Low 53F. Winds SW at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Partly cloudy skies early will give way to cloudy skies and light rain after midnight. Low 12C. Winds SW at 10 to 15 km/h. Chance of rain 40%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Saturday",
+		"fcttext":"A steady light rain early. Showers with perhaps a rumble of thunder developing in the afternoon. High 66F. Winds S at 10 to 20 mph. Chance of rain 100%. Locally heavier rainfall possible.",
+		"fcttext_metric":"Light rain early...then remaining cloudy with thundershowers developing in the afternoon. High 19C. Winds S at 15 to 30 km/h. Chance of rain 100%. Locally heavier rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Saturday Night",
+		"fcttext":"Steady light rain in the evening. Showers continuing late. Low 59F. Winds SW at 10 to 20 mph. Chance of rain 50%.",
+		"fcttext_metric":"Light rain early...then remaining cloudy with showers late. Low near 15C. Winds SW at 15 to 30 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Sunday",
+		"fcttext":"Showers in the morning, then cloudy in the afternoon. High 67F. Winds SW at 10 to 15 mph. Chance of rain 40%.",
+		"fcttext_metric":"Showers in the morning, then cloudy in the afternoon. High around 20C. Winds SW at 15 to 25 km/h. Chance of rain 50%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"A few clouds from time to time. Low near 55F. Winds WNW at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy. Low 13C. Winds WNW at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1533837600",
+	"pretty":"7:00 PM IST on August 09, 2018",
+	"day":9,
+	"month":8,
+	"year":2018,
+	"yday":220,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"IST",
+	"tz_long":"Europe/Dublin"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"65",
+		"celsius":"18"
+		},
+		"low": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.01,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.01,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "W",
+		"degrees": 273
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "W",
+		"degrees": 273
+		},
+		"avehumidity": 53,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1533924000",
+	"pretty":"7:00 PM IST on August 10, 2018",
+	"day":10,
+	"month":8,
+	"year":2018,
+	"yday":221,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"IST",
+	"tz_long":"Europe/Dublin"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"67",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Mostly Cloudy",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "W",
+		"degrees": 280
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "W",
+		"degrees": 280
+		},
+		"avehumidity": 68,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534010400",
+	"pretty":"7:00 PM IST on August 11, 2018",
+	"day":11,
+	"month":8,
+	"year":2018,
+	"yday":222,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"IST",
+	"tz_long":"Europe/Dublin"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"66",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"59",
+		"celsius":"15"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 0.35,
+		"mm": 9
+		},
+		"qpf_day": {
+		"in": 0.30,
+		"mm": 8
+		},
+		"qpf_night": {
+		"in": 0.05,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "S",
+		"degrees": 186
+		},
+		"avewind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "S",
+		"degrees": 186
+		},
+		"avehumidity": 94,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534096800",
+	"pretty":"7:00 PM IST on August 12, 2018",
+	"day":12,
+	"month":8,
+	"year":2018,
+	"yday":223,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"IST",
+	"tz_long":"Europe/Dublin"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"67",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.04,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.04,
+		"mm": 1
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SW",
+		"degrees": 221
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SW",
+		"degrees": 221
+		},
+		"avehumidity": 82,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

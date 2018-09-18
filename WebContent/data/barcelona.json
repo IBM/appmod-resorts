@@ -1,0 +1,835 @@
+
+{
+  "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast": 1
+    ,
+      "geolookup": 1
+    ,
+      "conditions": 1
+    }
+  }
+,	"location": {
+  "type":"INTLCITY",
+  "country":"SP",
+  "country_iso3166":"ES",
+  "country_name":"Spain",
+  "state":"B",
+  "city":"Barcelona",
+  "tz_short":"CEST",
+  "tz_long":"Europe/Madrid",
+  "lat":"41.38999939",
+  "lon":"2.16000009",
+  "zip":"00000",
+  "magic":"17",
+  "wmo":"08181",
+  "l":"/q/zmw:00000.17.08181",
+  "requesturl":"global/stations/08181.html",
+  "wuiurl":"https://www.wunderground.com/global/stations/08181.html",
+  "nearby_weather_stations": {
+    "airport": {
+      "station": [
+        { "city":"Barcelona / Aeropuerto", "state":"", "country":"Spain", "icao":"LEBL", "lat":"41.28333282", "lon":"2.06666708" }
+      ,{ "city":"Barcelona", "state":"", "country":"ES", "icao":"LEBL", "lat":"41.27999878", "lon":"2.06999993" }
+      ,{ "city":"Sabadell", "state":"", "country":"ES", "icao":"LELL", "lat":"41.52000046", "lon":"2.09999990" }
+      ]
+    }
+  ,
+    "pws": {
+      "station": [
+        {
+          "neighborhood":"Calle València",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO283",
+          "lat":41.391430,
+          "lon":2.161020,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"L\u0027Antiga Esquerra De L\u0027Eixample",
+          "state":"B",
+          "country":"SP",
+          "id":"IBLANTIG2",
+          "lat":41.387638,
+          "lon":2.160344,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer de Muntaner",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO244",
+          "lat":41.386257,
+          "lon":2.159918,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"L\u0027Antiga Esquerra De L\u0027Eixample",
+          "state":"B",
+          "country":"SP",
+          "id":"IBLANTIG4",
+          "lat":41.394798,
+          "lon":2.160824,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"L\u0027Antiga Esquerra De L\u0027Eixample",
+          "state":"B",
+          "country":"SP",
+          "id":"IBLANTIG8",
+          "lat":41.389732,
+          "lon":2.153333,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer de París",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO645",
+          "lat":41.394100,
+          "lon":2.153946,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"La Nova Esquerra De L\u0027Eixample",
+          "state":"B",
+          "country":"SP",
+          "id":"IBLANOVA6",
+          "lat":41.384293,
+          "lon":2.155738,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer de Còrsega",
+          "city":"Barcelona",
+          "state":"",
+          "country":"SP",
+          "id":"IBARCELO706",
+          "lat":41.389923,
+          "lon":2.151163,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer d\u0027Aragó",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO177",
+          "lat":41.384548,
+          "lon":2.154790,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Avinguda de Roma",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO171",
+          "lat":41.385029,
+          "lon":2.153920,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer de Provença",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO206",
+          "lat":41.396160,
+          "lon":2.164068,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Calle Consell de Cent",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO324",
+          "lat":41.392979,
+          "lon":2.168430,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Avinguda Diagonal",
+          "city":"Barcelona",
+          "state":"",
+          "country":"SP",
+          "id":"IBARCELO344",
+          "lat":41.394905,
+          "lon":2.152524,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Plaça de Catalunya",
+          "city":"Barcelona",
+          "state":"",
+          "country":"SP",
+          "id":"IBARCELO326",
+          "lat":41.387787,
+          "lon":2.169622,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"Ciutat Vella",
+          "state":"B",
+          "country":"SP",
+          "id":"IBCIUTAT3",
+          "lat":41.386330,
+          "lon":2.169149,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer de Villarroel",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO212",
+          "lat":41.382187,
+          "lon":2.159837,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"La Nova Esquerra De L\u0027Eixample",
+          "state":"B",
+          "country":"SP",
+          "id":"IBLANOVA15",
+          "lat":41.383068,
+          "lon":2.155053,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"Barcelona",
+          "state":"",
+          "country":"SP",
+          "id":"IBARCELO739",
+          "lat":41.382050,
+          "lon":2.159930,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer de la Diputació",
+          "city":"Barcelona",
+          "state":"",
+          "country":"SP",
+          "id":"IBARCELO698",
+          "lat":41.392925,
+          "lon":2.170065,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"Gracia",
+          "state":"B",
+          "country":"SP",
+          "id":"IBGRACIA4",
+          "lat":41.397884,
+          "lon":2.162617,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"Gracia",
+          "state":"B",
+          "country":"SP",
+          "id":"IBGRACIA6",
+          "lat":41.396656,
+          "lon":2.153080,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"Gracia",
+          "state":"B",
+          "country":"SP",
+          "id":"IBGRACIA10",
+          "lat":41.396824,
+          "lon":2.153375,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"Gracia",
+          "state":"B",
+          "country":"SP",
+          "id":"IBGRACIA3",
+          "lat":41.398914,
+          "lon":2.161377,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer de Tuset",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO406",
+          "lat":41.396263,
+          "lon":2.151316,
+          "distance_km":1,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"Eixample Dreta",
+          "state":"B",
+          "country":"SP",
+          "id":"IBEIXAMP8",
+          "lat":41.393864,
+          "lon":2.170926,
+          "distance_km":1,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Barcelona",
+          "city":"La Nova Esquerra De L\u0027Eixample",
+          "state":"B",
+          "country":"SP",
+          "id":"IBLANOVA4",
+          "lat":41.381332,
+          "lon":2.156276,
+          "distance_km":1,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer del Comte Borrell",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO682",
+          "lat":41.380535,
+          "lon":2.159884,
+          "distance_km":1,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer de Floridablanca",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO631",
+          "lat":41.380451,
+          "lon":2.161080,
+          "distance_km":1,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Carrer de Mallorca",
+          "city":"Barcelona",
+          "state":"",
+          "country":"ES",
+          "id":"IBARCELO227",
+          "lat":41.397850,
+          "lon":2.167889,
+          "distance_km":1,
+          "distance_mi":0
+        }
+      ]
+    }
+  }
+}
+,	"current_observation": {
+  "image": {
+    "url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+    "title":"Weather Underground",
+    "link":"http://www.wunderground.com"
+  },
+  "display_location": {
+    "full":"Barcelona, Spain",
+    "city":"Barcelona",
+    "state":"B",
+    "state_name":"Spain",
+    "country":"SP",
+    "country_iso3166":"ES",
+    "zip":"00000",
+    "magic":"17",
+    "wmo":"08181",
+    "latitude":"41.38999939",
+    "longitude":"2.16000009",
+    "elevation":"3.0"
+  },
+  "observation_location": {
+    "full":"Barcelona, B",
+    "city":"Barcelona",
+    "state":"B",
+    "country":"SP",
+    "country_iso3166":"ES",
+    "latitude":"41.39",
+    "longitude":"2.15",
+    "elevation":"180 ft"
+  },
+  "estimated": {
+  },
+  "station_id":"IBLANTIG8",
+  "observation_time":"Last Updated on May 15, 11:20 AM CEST",
+  "observation_time_rfc822":"Tue, 15 May 2018 11:20:51 +0200",
+  "observation_epoch":"1526376051",
+  "local_time_rfc822":"Tue, 15 May 2018 11:28:44 +0200",
+  "local_epoch":"1526376524",
+  "local_tz_short":"CEST",
+  "local_tz_long":"Europe/Madrid",
+  "local_tz_offset":"+0200",
+  "weather":"Clear",
+  "temperature_string":"61.7 F (16.5 C)",
+  "temp_f":61.7,
+  "temp_c":16.5,
+  "relative_humidity":"52%",
+  "wind_string":"From the WNW at 1.2 MPH Gusting to 5.0 MPH",
+  "wind_dir":"WNW",
+  "wind_degrees":295,
+  "wind_mph":1.2,
+  "wind_gust_mph":"5.0",
+  "wind_kph":1.9,
+  "wind_gust_kph":"8.0",
+  "pressure_mb":"1016",
+  "pressure_in":"30.01",
+  "pressure_trend":"0",
+  "dewpoint_string":"44 F (7 C)",
+  "dewpoint_f":44,
+  "dewpoint_c":7,
+  "heat_index_string":"NA",
+  "heat_index_f":"NA",
+  "heat_index_c":"NA",
+  "windchill_string":"NA",
+  "windchill_f":"NA",
+  "windchill_c":"NA",
+  "feelslike_string":"61.7 F (16.5 C)",
+  "feelslike_f":"61.7",
+  "feelslike_c":"16.5",
+  "visibility_mi":"6.2",
+  "visibility_km":"10.0",
+  "solarradiation":"--",
+  "UV":"7","precip_1hr_string":"-999.00 in ( 0 mm)",
+  "precip_1hr_in":"-999.00",
+  "precip_1hr_metric":" 0",
+  "precip_today_string":"0.00 in (0 mm)",
+  "precip_today_in":"0.00",
+  "precip_today_metric":"0",
+  "icon":"clear",
+  "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+  "forecast_url":"http://www.wunderground.com/global/stations/08181.html",
+  "history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IBLANTIG8",
+  "ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=41.389732,2.153333",
+  "nowcast":""
+}
+,
+  "forecast":{
+    "txt_forecast": {
+      "date":"10:02 AM CEST",
+      "forecastday": [
+        {
+          "period":0,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Tuesday",
+          "fcttext":"Sunny to partly cloudy. High 72F. Winds SW at 10 to 15 mph.",
+          "fcttext_metric":"Sunny to partly cloudy. High 22C. Winds WSW at 15 to 25 km/h.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":1,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Tuesday Night",
+          "fcttext":"Partly cloudy skies. Low 56F. SW winds shifting to NNW at 10 to 15 mph.",
+          "fcttext_metric":"Some clouds this evening will give way to mainly clear skies overnight. Low 13C. Winds WNW at 10 to 15 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":2,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Wednesday",
+          "fcttext":"Except for a few afternoon clouds, mainly sunny. High 69F. WNW winds shifting to SSE at 10 to 15 mph.",
+          "fcttext_metric":"Sunshine and some clouds. High around 20C. WNW winds shifting to SSE at 15 to 25 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":3,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Wednesday Night",
+          "fcttext":"Clear to partly cloudy. Low 57F. Winds W at 5 to 10 mph.",
+          "fcttext_metric":"A few clouds. Low 14C. Winds W at 10 to 15 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":4,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Thursday",
+          "fcttext":"Mostly sunny skies. High 69F. W winds shifting to SSE at 10 to 15 mph.",
+          "fcttext_metric":"Mostly sunny skies. High around 20C. W winds shifting to SSE at 15 to 25 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":5,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Thursday Night",
+          "fcttext":"A few clouds. Low 59F. Winds WNW at 5 to 10 mph.",
+          "fcttext_metric":"A few clouds. Low around 15C. Winds WNW at 10 to 15 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":6,
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "title":"Friday",
+          "fcttext":"Sunshine in the morning giving way to clouds and a few showers during the afternoon. High 68F. Winds ESE at 5 to 10 mph. Chance of rain 30%.",
+          "fcttext_metric":"Mostly sunny early. Becoming mostly cloudy with showers developing later in the day. High near 20C. Winds SE at 10 to 15 km/h. Chance of rain 40%.",
+          "pop":"30"
+        }
+      ,
+        {
+          "period":7,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Friday Night",
+          "fcttext":"Some clouds early will give way to generally clear conditions overnight. Low 57F. Winds NE at 5 to 10 mph.",
+          "fcttext_metric":"Some clouds early will give way to generally clear conditions overnight. Low 14C. Winds NE at 10 to 15 km/h.",
+          "pop":"20"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {"date":{
+          "epoch":"1526403600",
+          "pretty":"7:00 PM CEST on May 15, 2018",
+          "day":15,
+          "month":5,
+          "year":2018,
+          "yday":134,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Tue",
+          "weekday":"Tuesday",
+          "ampm":"PM",
+          "tz_short":"CEST",
+          "tz_long":"Europe/Madrid"
+        },
+          "period":1,
+          "high": {
+            "fahrenheit":"72",
+            "celsius":"22"
+          },
+          "low": {
+            "fahrenheit":"56",
+            "celsius":"13"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SW",
+            "degrees": 232
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 19,
+            "dir": "SW",
+            "degrees": 232
+          },
+          "avehumidity": 52,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526490000",
+          "pretty":"7:00 PM CEST on May 16, 2018",
+          "day":16,
+          "month":5,
+          "year":2018,
+          "yday":135,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Wed",
+          "weekday":"Wednesday",
+          "ampm":"PM",
+          "tz_short":"CEST",
+          "tz_long":"Europe/Madrid"
+        },
+          "period":2,
+          "high": {
+            "fahrenheit":"69",
+            "celsius":"21"
+          },
+          "low": {
+            "fahrenheit":"57",
+            "celsius":"14"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SW",
+            "degrees": 214
+          },
+          "avewind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "SW",
+            "degrees": 214
+          },
+          "avehumidity": 70,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526576400",
+          "pretty":"7:00 PM CEST on May 17, 2018",
+          "day":17,
+          "month":5,
+          "year":2018,
+          "yday":136,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Thu",
+          "weekday":"Thursday",
+          "ampm":"PM",
+          "tz_short":"CEST",
+          "tz_long":"Europe/Madrid"
+        },
+          "period":3,
+          "high": {
+            "fahrenheit":"69",
+            "celsius":"21"
+          },
+          "low": {
+            "fahrenheit":"59",
+            "celsius":"15"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "S",
+            "degrees": 179
+          },
+          "avewind": {
+            "mph": 11,
+            "kph": 18,
+            "dir": "S",
+            "degrees": 179
+          },
+          "avehumidity": 71,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526662800",
+          "pretty":"7:00 PM CEST on May 18, 2018",
+          "day":18,
+          "month":5,
+          "year":2018,
+          "yday":137,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Fri",
+          "weekday":"Friday",
+          "ampm":"PM",
+          "tz_short":"CEST",
+          "tz_long":"Europe/Madrid"
+        },
+          "period":4,
+          "high": {
+            "fahrenheit":"68",
+            "celsius":"20"
+          },
+          "low": {
+            "fahrenheit":"57",
+            "celsius":"14"
+          },
+          "conditions":"Chance of Rain",
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "skyicon":"",
+          "pop":30,
+          "qpf_allday": {
+            "in": 0.02,
+            "mm": 1
+          },
+          "qpf_day": {
+            "in": 0.02,
+            "mm": 1
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "ESE",
+            "degrees": 122
+          },
+          "avewind": {
+            "mph": 9,
+            "kph": 14,
+            "dir": "ESE",
+            "degrees": 122
+          },
+          "avehumidity": 74,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}

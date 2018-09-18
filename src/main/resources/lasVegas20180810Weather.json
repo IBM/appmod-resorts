@@ -1,0 +1,637 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"NV",
+		"city":"Las Vegas",
+		"tz_short":"PDT",
+		"tz_long":"America/Los_Angeles",
+		"lat":"36.16999817",
+		"lon":"-115.12999725",
+		"zip":"89101",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:89101.1.99999",
+		"requesturl":"US/NV/Las_Vegas.html",
+		"wuiurl":"https://www.wunderground.com/US/NV/Las_Vegas.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"North Las Vegas", "state":"NV", "country":"US", "icao":"KVGT", "lat":"36.20999908", "lon":"-115.19999695" }
+		,{ "city":"Las Vegas", "state":"NV", "country":"US", "icao":"KLAS", "lat":"36.08000183", "lon":"-115.15000153" }
+		,{ "city":"Nellis AFB", "state":"NV", "country":"US", "icao":"KLSV", "lat":"36.24000168", "lon":"-115.02999878" }
+		,{ "city":"Henderson", "state":"NV", "country":"US", "icao":"KHND", "lat":"35.97000122", "lon":"-115.12999725" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Downtown Las Vegas",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE407",
+		"lat":36.168076,
+		"lon":-115.138252,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Sahara and Mojave - Winchester",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE289",
+		"lat":36.136501,
+		"lon":-115.105179,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Bonita Vista",
+		"city":"North Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVNORTH34",
+		"lat":36.204899,
+		"lon":-115.155632,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Palimino Area",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE465",
+		"lat":36.161797,
+		"lon":-115.185547,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Neon Vegas Homes - Central Valley",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE92",
+		"lat":36.147896,
+		"lon":-115.185066,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Twin Palms",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE293",
+		"lat":36.118824,
+		"lon":-115.094742,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Heritage Square South",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE502",
+		"lat":36.120098,
+		"lon":-115.087700,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Paradise Crest Nomad",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE506",
+		"lat":36.110432,
+		"lon":-115.092644,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Sunrise Manor",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE507",
+		"lat":36.186131,
+		"lon":-115.023857,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Weather station",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE405",
+		"lat":36.167725,
+		"lon":-115.238350,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"BonnieSprings",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVLASVE452",
+		"lat":36.110001,
+		"lon":-115.211800,
+		"distance_km":9,
+		"distance_mi":5
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Las Vegas, NV",
+		"city":"Las Vegas",
+		"state":"NV",
+		"state_name":"Nevada",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"89101",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"36.16999817",
+		"longitude":"-115.12999725",
+		"elevation":"602.0"
+		},
+		"observation_location": {
+		"full":"North Las Vegas, Nevada",
+		"city":"North Las Vegas",
+		"state":"Nevada",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"36.17",
+		"longitude":"-115.14",
+		"elevation":"2014 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KNVLASVE407",
+		"observation_time":"Last Updated on August 10, 7:03 AM PDT",
+		"observation_time_rfc822":"Thu, 09 Aug 2018 07:03:41 -0700",
+		"observation_epoch":"1533823421",
+		"local_time_rfc822":"Thu, 09 Aug 2018 07:04:29 -0700",
+		"local_epoch":"1533823469",
+		"local_tz_short":"PDT",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0700",
+		"weather":"Clear",
+		"temperature_string":"83.9 F (28.8 C)",
+		"temp_f":83.9,
+		"temp_c":28.8,
+		"relative_humidity":"45%",
+		"wind_string":"From the West at 1 MPH",
+		"wind_dir":"West",
+		"wind_degrees":270,
+		"wind_mph":1,
+		"wind_gust_mph":0,
+		"wind_kph":1.6,
+		"wind_gust_kph":0,
+		"pressure_mb":"1013",
+		"pressure_in":"29.91",
+		"pressure_trend":"+",
+		"dewpoint_string":"60 F (16 C)",
+		"dewpoint_f":60,
+		"dewpoint_c":16,
+		"heat_index_string":"84 F (29 C)",
+		"heat_index_f":84,
+		"heat_index_c":29,
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"84 F (29 C)",
+		"feelslike_f":"84",
+		"feelslike_c":"29",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"1","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/NV/Las_Vegas.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KNVLASVE407",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=36.168076,-115.138252",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"5:30 AM PDT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Thursday",
+		"fcttext":"A good deal of sunshine. A stray shower or thunderstorm is possible. High 108F. Winds SE at 5 to 10 mph.",
+		"fcttext_metric":"A good deal of sunshine. A stray shower or thunderstorm is possible. High 42C. Winds SE at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Thursday Night",
+		"fcttext":"A clear sky. Low 86F. Winds S at 10 to 15 mph.",
+		"fcttext_metric":"Clear skies. Low near 30C. Winds S at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":2,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Friday",
+		"fcttext":"A mainly sunny sky. High 107F. Winds SSE at 5 to 10 mph.",
+		"fcttext_metric":"Sunny. High 42C. Winds SE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Friday Night",
+		"fcttext":"Mostly clear skies. A stray shower or thunderstorm is possible. Low around 85F. Winds SSW at 10 to 15 mph.",
+		"fcttext_metric":"Mostly clear skies. A stray shower or thunderstorm is possible. Low 29C. Winds S at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":4,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday",
+		"fcttext":"Intervals of clouds and sunshine. A stray shower or thunderstorm is possible. High around 105F. Winds SSE at 5 to 10 mph.",
+		"fcttext_metric":"Intervals of clouds and sunshine. A stray shower or thunderstorm is possible. High 41C. Winds SSE at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Saturday Night",
+		"fcttext":"Clear skies. A stray shower or thunderstorm is possible. Low 84F. Winds S at 5 to 10 mph.",
+		"fcttext_metric":"Clear skies. A stray shower or thunderstorm is possible. Low 29C. Winds S at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":6,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Partly cloudy. High around 105F. Winds SSE at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy. High 41C. Winds SSE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Some clouds early will give way to generally clear conditions overnight. Low 83F. Winds SSW at 5 to 10 mph.",
+		"fcttext_metric":"Some clouds early will give way to generally clear conditions overnight. Low 29C. Winds S at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1533866400",
+	"pretty":"7:00 PM PDT on August 09, 2018",
+	"day":9,
+	"month":8,
+	"year":2018,
+	"yday":220,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"108",
+		"celsius":"42"
+		},
+		"low": {
+		"fahrenheit":"86",
+		"celsius":"30"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SE",
+		"degrees": 134
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "SE",
+		"degrees": 134
+		},
+		"avehumidity": 23,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1533952800",
+	"pretty":"7:00 PM PDT on August 10, 2018",
+	"day":10,
+	"month":8,
+	"year":2018,
+	"yday":221,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"107",
+		"celsius":"42"
+		},
+		"low": {
+		"fahrenheit":"85",
+		"celsius":"29"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSE",
+		"degrees": 149
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SSE",
+		"degrees": 149
+		},
+		"avehumidity": 26,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534039200",
+	"pretty":"7:00 PM PDT on August 11, 2018",
+	"day":11,
+	"month":8,
+	"year":2018,
+	"yday":222,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"105",
+		"celsius":"41"
+		},
+		"low": {
+		"fahrenheit":"84",
+		"celsius":"29"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSE",
+		"degrees": 167
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "SSE",
+		"degrees": 167
+		},
+		"avehumidity": 23,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1534125600",
+	"pretty":"7:00 PM PDT on August 12, 2018",
+	"day":12,
+	"month":8,
+	"year":2018,
+	"yday":223,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"monthname_short":"Aug",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"105",
+		"celsius":"41"
+		},
+		"low": {
+		"fahrenheit":"83",
+		"celsius":"28"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSE",
+		"degrees": 157
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "SSE",
+		"degrees": 157
+		},
+		"avehumidity": 24,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

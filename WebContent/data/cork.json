@@ -1,0 +1,792 @@
+
+{
+  "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast": 1
+    ,
+      "geolookup": 1
+    ,
+      "conditions": 1
+    }
+  }
+,	"location": {
+  "type":"INTLCITY",
+  "country":"IE",
+  "country_iso3166":"IE",
+  "country_name":"Ireland",
+  "state":"CO",
+  "city":"Cork",
+  "tz_short":"IST",
+  "tz_long":"Europe/Dublin",
+  "lat":"51.90000153",
+  "lon":"-8.47000027",
+  "zip":"00000",
+  "magic":"3",
+  "wmo":"03955",
+  "l":"/q/zmw:00000.3.03955",
+  "requesturl":"global/stations/03955.html",
+  "wuiurl":"https://www.wunderground.com/global/stations/03955.html",
+  "nearby_weather_stations": {
+    "airport": {
+      "station": [
+        { "city":"Cork Airport", "state":"", "country":"Ireland", "icao":"EICK", "lat":"51.84999847", "lon":"-8.48333263" }
+      ,{ "city":"Cork", "state":"", "country":"IE", "icao":"EICK", "lat":"51.84999847", "lon":"-8.47999954" }
+      ,{ "city":"Kerry Airport", "state":"", "country":"IE", "icao":"EIKY", "lat":"52.18000031", "lon":"-9.52000046" }
+      ,{ "city":"Shannon", "state":"", "country":"IE", "icao":"EINN", "lat":"52.70000076", "lon":"-8.92000008" }
+      ]
+    }
+  ,
+    "pws": {
+      "station": [
+        {
+          "neighborhood":"Cork",
+          "city":"Gurranebraher",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICOGURRA4",
+          "lat":51.899025,
+          "lon":-8.472523,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Cork",
+          "city":"Gurranebraher",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICOGURRA3",
+          "lat":51.901276,
+          "lon":-8.472587,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Hardwick Street",
+          "city":"Cork",
+          "state":"",
+          "country":"IE",
+          "id":"ICORK35",
+          "lat":51.902306,
+          "lon":-8.470702,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Bridewell",
+          "city":"Gurranebraher",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICOGURRA5",
+          "lat":51.902603,
+          "lon":-8.475720,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"Skibereen",
+          "city":"Mayfield",
+          "state":"",
+          "country":"IE",
+          "id":"IMAYFIEL6",
+          "lat":51.900372,
+          "lon":-8.455717,
+          "distance_km":0,
+          "distance_mi":0
+        },
+        {
+          "neighborhood":"The Lough, Cork",
+          "city":"Bridewell",
+          "state":"",
+          "country":"IE",
+          "id":"IBRIDEWE3",
+          "lat":51.889446,
+          "lon":-8.490314,
+          "distance_km":1,
+          "distance_mi":1
+        },
+        {
+          "neighborhood":"Douglas Rd.",
+          "city":"Cork",
+          "state":"CORK",
+          "country":"IE",
+          "id":"ICORKCOR19",
+          "lat":51.884415,
+          "lon":-8.449474,
+          "distance_km":2,
+          "distance_mi":1
+        },
+        {
+          "neighborhood":"Ballinlough",
+          "city":"Cork",
+          "state":"CORK",
+          "country":"IE",
+          "id":"ICORKCOR21",
+          "lat":51.888676,
+          "lon":-8.439294,
+          "distance_km":2,
+          "distance_mi":1
+        },
+        {
+          "neighborhood":"Douglas",
+          "city":"Ballintemple",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICOBALLI2",
+          "lat":51.884262,
+          "lon":-8.437316,
+          "distance_km":2,
+          "distance_mi":1
+        },
+        {
+          "neighborhood":"Togher",
+          "city":"Cork",
+          "state":"",
+          "country":"IE",
+          "id":"ICORK25",
+          "lat":51.871746,
+          "lon":-8.490448,
+          "distance_km":3,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Cork",
+          "city":"Musheen",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICOMUSHE2",
+          "lat":51.882660,
+          "lon":-8.515679,
+          "distance_km":3,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Mayfield",
+          "city":"Anglesea Street",
+          "state":"",
+          "country":"IE",
+          "id":"IANGLESE9",
+          "lat":51.898170,
+          "lon":-8.415892,
+          "distance_km":3,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Douglas",
+          "city":"Derrybrook",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICODERRY4",
+          "lat":51.864117,
+          "lon":-8.447862,
+          "distance_km":4,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Cork",
+          "city":"Cork",
+          "state":"Cork",
+          "country":"IE",
+          "id":"IMUNSTER11",
+          "lat":51.899879,
+          "lon":-8.402870,
+          "distance_km":4,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Douglas",
+          "city":"Derrybrook",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICODERRY3",
+          "lat":51.862923,
+          "lon":-8.436717,
+          "distance_km":4,
+          "distance_mi":2
+        },
+        {
+          "neighborhood":"Glanmire",
+          "city":"Flaxfort",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICOFLAXF3",
+          "lat":51.898521,
+          "lon":-8.374794,
+          "distance_km":6,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"Marwood",
+          "city":"Glanmire",
+          "state":"",
+          "country":"IE",
+          "id":"IGLANMIR3",
+          "lat":51.926369,
+          "lon":-8.382360,
+          "distance_km":6,
+          "distance_mi":4
+        },
+        {
+          "neighborhood":"Ballincollig",
+          "city":"Ballincollig",
+          "state":"",
+          "country":"IE",
+          "id":"IBALLINC5",
+          "lat":51.906296,
+          "lon":-8.575927,
+          "distance_km":7,
+          "distance_mi":4
+        },
+        {
+          "neighborhood":"Westgrove",
+          "city":"Ballincollig",
+          "state":"",
+          "country":"IE",
+          "id":"IBALLINC2",
+          "lat":51.886669,
+          "lon":-8.614718,
+          "distance_km":10,
+          "distance_mi":6
+        },
+        {
+          "neighborhood":"Buncoille",
+          "city":"Passage West",
+          "state":"",
+          "country":"IE",
+          "id":"IPASSAGE3",
+          "lat":51.840908,
+          "lon":-8.344137,
+          "distance_km":10,
+          "distance_mi":6
+        },
+        {
+          "neighborhood":"Ballincollig",
+          "city":"Cloghroe",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICOCLOGH2",
+          "lat":51.923058,
+          "lon":-8.646124,
+          "distance_km":12,
+          "distance_mi":7
+        },
+        {
+          "neighborhood":"Ballincollig",
+          "city":"Killumney",
+          "state":"CO",
+          "country":"IE",
+          "id":"ICOKILLU2",
+          "lat":51.877895,
+          "lon":-8.646461,
+          "distance_km":12,
+          "distance_mi":7
+        },
+        {
+          "neighborhood":"Cork Harbour",
+          "city":"Cobh",
+          "state":"",
+          "country":"IE",
+          "id":"ICOBH3",
+          "lat":51.852604,
+          "lon":-8.290218,
+          "distance_km":13,
+          "distance_mi":8
+        },
+        {
+          "neighborhood":"Beaufort Building, MaREI",
+          "city":"Carrigaline",
+          "state":"",
+          "country":"IE",
+          "id":"ICARRIGA4",
+          "lat":51.834286,
+          "lon":-8.302237,
+          "distance_km":13,
+          "distance_mi":8
+        },
+        {
+          "neighborhood":"R612",
+          "city":"Carraig Ui Leighin",
+          "state":"",
+          "country":"IE",
+          "id":"ICARRAIG5",
+          "lat":51.807777,
+          "lon":-8.338044,
+          "distance_km":13,
+          "distance_mi":8
+        }
+      ]
+    }
+  }
+}
+,	"current_observation": {
+  "image": {
+    "url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+    "title":"Weather Underground",
+    "link":"http://www.wunderground.com"
+  },
+  "display_location": {
+    "full":"Cork, Ireland",
+    "city":"Cork",
+    "state":"CO",
+    "state_name":"Ireland",
+    "country":"IE",
+    "country_iso3166":"IE",
+    "zip":"00000",
+    "magic":"3",
+    "wmo":"03955",
+    "latitude":"51.90000153",
+    "longitude":"-8.47000027",
+    "elevation":"125.0"
+  },
+  "observation_location": {
+    "full":"Cork, ",
+    "city":"Cork",
+    "state":"",
+    "country":"IE",
+    "country_iso3166":"IE",
+    "latitude":"51.90",
+    "longitude":"-8.46",
+    "elevation":"1000 ft"
+  },
+  "estimated": {
+  },
+  "station_id":"IMAYFIEL6",
+  "observation_time":"Last Updated on May 15, 10:14 AM IST",
+  "observation_time_rfc822":"Tue, 15 May 2018 10:14:29 +0100",
+  "observation_epoch":"1526375669",
+  "local_time_rfc822":"Tue, 15 May 2018 10:28:14 +0100",
+  "local_epoch":"1526376494",
+  "local_tz_short":"IST",
+  "local_tz_long":"Europe/Dublin",
+  "local_tz_offset":"+0100",
+  "weather":"Overcast",
+  "temperature_string":"58.8 F (14.9 C)",
+  "temp_f":58.8,
+  "temp_c":14.9,
+  "relative_humidity":"92%",
+  "wind_string":"Calm",
+  "wind_dir":"NW",
+  "wind_degrees":307,
+  "wind_mph":0.0,
+  "wind_gust_mph":0,
+  "wind_kph":0,
+  "wind_gust_kph":0,
+  "pressure_mb":"1023",
+  "pressure_in":"30.21",
+  "pressure_trend":"0",
+  "dewpoint_string":"57 F (14 C)",
+  "dewpoint_f":57,
+  "dewpoint_c":14,
+  "heat_index_string":"NA",
+  "heat_index_f":"NA",
+  "heat_index_c":"NA",
+  "windchill_string":"NA",
+  "windchill_f":"NA",
+  "windchill_c":"NA",
+  "feelslike_string":"58.8 F (14.9 C)",
+  "feelslike_f":"58.8",
+  "feelslike_c":"14.9",
+  "visibility_mi":"6.2",
+  "visibility_km":"10.0",
+  "solarradiation":"--",
+  "UV":"2","precip_1hr_string":"0.00 in ( 0 mm)",
+  "precip_1hr_in":"0.00",
+  "precip_1hr_metric":" 0",
+  "precip_today_string":"0.00 in (0 mm)",
+  "precip_today_in":"0.00",
+  "precip_today_metric":"0",
+  "icon":"cloudy",
+  "icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+  "forecast_url":"http://www.wunderground.com/global/stations/03955.html",
+  "history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IMAYFIEL6",
+  "ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=51.900372,-8.455717",
+  "nowcast":""
+}
+,
+  "forecast":{
+    "txt_forecast": {
+      "date":"9:31 AM IST",
+      "forecastday": [
+        {
+          "period":0,
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "title":"Tuesday",
+          "fcttext":"Cloudy skies with periods of light rain this afternoon. High 61F. Winds NW at 10 to 20 mph. Chance of rain 60%.",
+          "fcttext_metric":"Cloudy skies with periods of light rain this afternoon. High 16C. Winds NW at 15 to 30 km/h. Chance of rain 60%.",
+          "pop":"60"
+        }
+      ,
+        {
+          "period":1,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Tuesday Night",
+          "fcttext":"Some clouds this evening will give way to mainly clear skies overnight. Low 41F. Winds N at 10 to 20 mph.",
+          "fcttext_metric":"Some clouds this evening will give way to mainly clear skies overnight. Low near 5C. Winds N at 15 to 30 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":2,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Wednesday",
+          "fcttext":"Sunny. High 61F. Winds NNE at 10 to 20 mph.",
+          "fcttext_metric":"Sunny. High 16C. Winds NNE at 15 to 30 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":3,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Wednesday Night",
+          "fcttext":"A few clouds. Low 42F. Winds ENE at 5 to 10 mph.",
+          "fcttext_metric":"A few clouds. Low 6C. Winds ENE at 10 to 15 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":4,
+          "icon":"cloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+          "title":"Thursday",
+          "fcttext":"Cloudy. High around 55F. Winds ESE at 10 to 15 mph.",
+          "fcttext_metric":"Overcast. High 13C. Winds ESE at 15 to 25 km/h.",
+          "pop":"20"
+        }
+      ,
+        {
+          "period":5,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Thursday Night",
+          "fcttext":"Mainly clear early, then a few clouds later on. Low 41F. Winds ESE at 5 to 10 mph.",
+          "fcttext_metric":"Mainly clear early, then a few clouds later on. Low around 5C. Winds ESE at 10 to 15 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":6,
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title":"Friday",
+          "fcttext":"Some clouds in the morning will give way to mainly sunny skies for the afternoon. High 59F. Winds SSE at 5 to 10 mph.",
+          "fcttext_metric":"Partly cloudy skies. High near 15C. Winds SSE at 10 to 15 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":7,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Friday Night",
+          "fcttext":"Clear. Low 43F. Winds S at 5 to 10 mph.",
+          "fcttext_metric":"Clear skies. Low 6C. Winds S at 10 to 15 km/h.",
+          "pop":"10"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {"date":{
+          "epoch":"1526407200",
+          "pretty":"7:00 PM IST on May 15, 2018",
+          "day":15,
+          "month":5,
+          "year":2018,
+          "yday":134,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Tue",
+          "weekday":"Tuesday",
+          "ampm":"PM",
+          "tz_short":"IST",
+          "tz_long":"Europe/Dublin"
+        },
+          "period":1,
+          "high": {
+            "fahrenheit":"61",
+            "celsius":"16"
+          },
+          "low": {
+            "fahrenheit":"41",
+            "celsius":"5"
+          },
+          "conditions":"Chance of Rain",
+          "icon":"chancerain",
+          "icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+          "skyicon":"",
+          "pop":60,
+          "qpf_allday": {
+            "in": 0.01,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.01,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 20,
+            "kph": 32,
+            "dir": "NW",
+            "degrees": 318
+          },
+          "avewind": {
+            "mph": 14,
+            "kph": 23,
+            "dir": "NW",
+            "degrees": 318
+          },
+          "avehumidity": 87,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526493600",
+          "pretty":"7:00 PM IST on May 16, 2018",
+          "day":16,
+          "month":5,
+          "year":2018,
+          "yday":135,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Wed",
+          "weekday":"Wednesday",
+          "ampm":"PM",
+          "tz_short":"IST",
+          "tz_long":"Europe/Dublin"
+        },
+          "period":2,
+          "high": {
+            "fahrenheit":"61",
+            "celsius":"16"
+          },
+          "low": {
+            "fahrenheit":"42",
+            "celsius":"6"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 20,
+            "kph": 32,
+            "dir": "NNE",
+            "degrees": 28
+          },
+          "avewind": {
+            "mph": 13,
+            "kph": 21,
+            "dir": "NNE",
+            "degrees": 28
+          },
+          "avehumidity": 64,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526580000",
+          "pretty":"7:00 PM IST on May 17, 2018",
+          "day":17,
+          "month":5,
+          "year":2018,
+          "yday":136,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Thu",
+          "weekday":"Thursday",
+          "ampm":"PM",
+          "tz_short":"IST",
+          "tz_long":"Europe/Dublin"
+        },
+          "period":3,
+          "high": {
+            "fahrenheit":"55",
+            "celsius":"13"
+          },
+          "low": {
+            "fahrenheit":"41",
+            "celsius":"5"
+          },
+          "conditions":"Overcast",
+          "icon":"cloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+          "skyicon":"",
+          "pop":20,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "ESE",
+            "degrees": 119
+          },
+          "avewind": {
+            "mph": 11,
+            "kph": 18,
+            "dir": "ESE",
+            "degrees": 119
+          },
+          "avehumidity": 79,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1526666400",
+          "pretty":"7:00 PM IST on May 18, 2018",
+          "day":18,
+          "month":5,
+          "year":2018,
+          "yday":137,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"May",
+          "monthname_short":"May",
+          "weekday_short":"Fri",
+          "weekday":"Friday",
+          "ampm":"PM",
+          "tz_short":"IST",
+          "tz_long":"Europe/Dublin"
+        },
+          "period":4,
+          "high": {
+            "fahrenheit":"59",
+            "celsius":"15"
+          },
+          "low": {
+            "fahrenheit":"43",
+            "celsius":"6"
+          },
+          "conditions":"Partly Cloudy",
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon":"",
+          "pop":10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "SSE",
+            "degrees": 149
+          },
+          "avewind": {
+            "mph": 8,
+            "kph": 13,
+            "dir": "SSE",
+            "degrees": 149
+          },
+          "avehumidity": 74,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}
