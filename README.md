@@ -127,7 +127,7 @@ The Data Collector tab should now display the screen shown below. The Data Colle
 
   ![dc_download](doc/source/images/dc_download.png)
 
-### Install and Run
+### Install and run
 
 > **WARNING:** The Data Collector is likely to consume a significant amount of resources while gathering data. Therefore, we recommend you run the tool in a pre-production environment. Depending on the number, size and complexity of your applications the Data Collector may take quite some time to execute and upload results. 
 
@@ -164,91 +164,86 @@ If there is no connection, the Data Collector will return a .zip file containing
 
 ## 5. View the recommendations and cost estimates
 
-Select the Application you wish to migrate from the `Recommendations` tab and hit the `Migrate Plan` button.
+Selecting the `Recommendations` tab after the Data Collector has completed and uploaded results should display a screen similar to that shown below. Please be aware that any cost estimates displayed by the tool are high-level estimates only and may vary widely based on skills and other factors not considered by the tool.
+
+> Note: You can use the `Advanced Settings` gear icon to change the `Dev cost multiplier` and `Overhead cost` and adjust the estimates for your team.
 
 ![recommendations](doc/source/images/recommendations.png)
 
-Selecting the Recommendations tab after the Data Collector has completed and uploaded results should display a screen similar to that shown below. Please be aware that any cost estimates displayed by the tool are high-level estimates only and may vary widely based on skills and other factors not considered by the tool.
 
-![recommendations2](doc/source/images/recommendations2.jpg)
 
 The recommendations tab shows you a table with a summary row for each application found on your application server. Each row contains the following information:
 
 | Column | Description |
 | ------ | ----------- |
-| Application Name | *The name of the EAR/WAR file found on the application server.* |
-| Recommendation | *This is the platform we recommend you move to based on your preferences and the results of the binary scanner. A green tick indicates the recommendation matches your preferences. The red x indicates that the recommendation does not match to a preference you have selected.* |
-| Complexity | *This is an indication of how complex Transformation Advisor considers this application to be if you were to migrate it to the cloud.* |
-| Technology Match | *This is a percentage and if less than 100% it indicates that there may be some technologies that are not suitable for the recommended platform. You should investigate the details and ensure your application is actually using the technologies.* |
+| | *A drop-down arrow lets you expand the summary row to see the analysis for other targets.* |
+| | *Alert icons may appear to indicate apps that are incompatible with a target.* |
+| Application | *The name of the EAR/WAR file found on the application server.* |
+| | *An indicator to show how complex Transformation Advisor considers this application to be if you were to migrate it to the cloud.* |
+| Tech match | *This is a percentage and if less than 100% it indicates that there may be some technologies that are not suitable for the recommended platform. You should investigate the details and ensure your application is actually using the technologies.* |
 | Dependencies | *This shows potential external dependencies detected during the scan. Work may be needed to configure access to these external dependencies.* |
-| Possible Issues | *This indicates the number and severity of potential issues migrating the application. The ‘View Details’ button should be pressed and the details of the issues examined to determine if they are valid issues affecting the application.* |
-| Dev Cost | *This is an estimate in days of the development effort to perform the migration.* |
-| Overhead Cost | *This is an estimate in days of the effort required in any migration to do environment setup, configuration and unit test.* |
-| Total Cost | *This is the total estimate in days of the overhead and development costs in migration up to the point of functional testing.* |
-| View Details Button | *This will take you to the details of the recommendations and issues.* |
-| Migration Details | *This button will take you to the Migration tab for the application.* |
+| Issues | *This indicates the number and severity of potential issues migrating the application.* |
+| Est. dev cost | *This is an estimate in days of the development effort to perform the migration.* |
+| Total effort | *This is the total estimate in days of the overhead and development costs in migration up to the point of functional testing.* |
+| | *The `Migration plan` button will take you to the Migration page for the application.* |
 
-Each column in the table is sortable. There is a filter text box on the top right hand side which allows you to filter out rows of data. You can use the `+` symbol to see only rows that match all your terms (e.g., `Liberty+Simple`).
+Each column in the table is sortable. There is also a `Search items` box which allows you to filter out rows of data. You can use the `+` symbol to see only rows that match all your terms (e.g., `Liberty+Simple`). You can filter by complexity using the filter button.
 
-By checking the `Show All Recommendations` checkbox, you will be presented with all the findings of the tool -– not just the top recommended option but also the options that the tool would not necessarily recommend as easiest. This is usefull in understanding the complete analysis that is applied to each application. As you can see from the example below, when we expand and look at all the recommendations for 'DefaultApplication.ear' you can see that there are technology match issues and this would be a "Complex" move to Liberty on Private or Public Cloud. In this instance, we would recommend a move to Traditional WAS on Private Cloud. That move would be moderate complexity, with some dependencies to consider, but no issues or code changes required.
-
-![moderate_was](doc/source/images/moderate_was.jpg)
-
-The `View Details` button for each application will take you to the Application details where you can see a lot more detail. For starters, the complexity rating is explained for you.
+Clicking on your application name will take you to more information about the discovered `Complexity` and `Application Details`. For starters, the complexity rating is explained for you.
 
 ![complexity](doc/source/images/complexity.png)
 
 You will also see details for each issue and dependency discovered:
 
-![screen10](doc/source/images/screen10.jpg)
+![app_details](doc/source/images/app_details.png)
 
-For some issues, there will be an arrow. Select the arrow to display extra information about the issue and any known hints/tips to resolve.
-
-![screen10_1](doc/source/images/screen10_1.jpg)
+There will be additional sections to show any technology issues, external dependencies, and additional information related to your application transformation.
 
 Scroll to the end of the recommendations screen to find three links to further detailed reports.
 
 ![screen11](doc/source/images/screen11.jpg)
 
-The three reporsts are described as follows:
+The three reports are described as follows:
 
 ### Analysis Report
 
 The binary scanner’s detailed migration report digs deeper to understand the nitty-gritty details of the migration. The detailed report helps with migration issues like deprecated or removed APIs, Java SE version differences, and Java EE behavior differences. Please note that the Transformation Advisor uses a rule system based on common occurring events seen in real applications to enhance the base reports and to provide practical guidance. As a result of this some items may show a different severity level in Transformation Advisor than they do in the detailed binary scanner reports.
 
-![analysis](doc/source/images/analysis.jpg)
+![analysis](doc/source/images/analysis.png)
 
 ### Technology Report
 
 The binary scanner can examine your application and generate the Application Evaluation Report, which shows which editions of WebSphere Application Server are best suited to run the application. The report provides a list of Java EE programming models that are used by the application, and it indicates on which platforms the application can be supported.
 
-![evaluation](doc/source/images/evaluation.jpg)
+![evaluation](doc/source/images/evaluation.png)
 
 ### Inventory Report
 
 The binary scanner has an inventory report that helps you examine what’s in your application including the number of modules and the technologies in those modules. It also gives you a view of all the utility JAR files in the application that tend to accumulate over time. Potential deployment problems and performance considerations are also included.
 
-![inventory](doc/source/images/inventory.jpg)
+![inventory](doc/source/images/inventory.png)
 
 ## 5. Complete your migration bundle
+
+Select the Application you wish to migrate from the `Recommendations` tab and hit the `Migration plan` button.
 
 Transformation Advisor will automatically generate the artifacts you need to get your application deployed and running in a Liberty container on IBM Cloud Private, including...
 
 * server.xml
-* Helm Charts
 * Dockerfile
+* Helm Charts
 * deployment.yaml
 
-It also creates for you the build artifacts needed by Microclimate to build and deploy your application, including...
+It also creates the build artifacts needed by Microclimate to build and deploy your application, including...
 
 * Jenkinsfile
 * pom.xml
 
-You will need to add the application binary itself (EAR/WAR file) and any external dependencies that may be particular to your application such as database drivers. These files can easily be added on the Migration Plan page at the click of a button.
+You will need to add the application binary itself (EAR/WAR file) and any external dependencies that may be particular to your application such as database drivers. These files can easily be added on the migration plan page at the click of a button.
 
 ![add_dependencies](doc/source/images/added_war.png)
 
-Once all required application dependencies are uploaded, you will be able to either download the Migration bundle (if you wish to manually deploy your app) or hit the `Deploy Bundle` button on the right hand side of the screen to help you automatically deploy the application using Microclimate.
+Once all required application dependencies are uploaded, you will be able to either download the migration bundle (if you wish to manually deploy your app) or hit the `Deploy bundle` button on the right-hand side of the screen to help you automatically deploy the application using Microclimate.
 
 ## 6. Create a GitHub or GitLab repository
 
