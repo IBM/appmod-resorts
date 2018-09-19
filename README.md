@@ -113,7 +113,9 @@ To get started with the Transformation Advisor:
 * Hit `Let’s Go`.
 
 ## 3. Download and run the Data Collector
-<!-- TODO: Combine(?) the collect and upload stuff and deal with it being optional (use provided file) -->
+
+> If you don't want to run our sample app and the Data Collector in your own WAS environment, you can use the the files that we already collected and saved in [data/examples](data/examples). Just upload them in [the next step](#4-upload-results-if-necessary) to continue.
+
 The Data Collector identifies which profiles are associated with the WebSphere installation along with the installed WebSphere and Java versions. It also identifies all WebSphere applications within each deployment manager and standalone profile. The tool generates one folder per profile and places analysis results within that directory.
 
 > Note: The Data Collector will collect configuration information in WAS installations at version 7 or later.
@@ -169,8 +171,6 @@ Selecting the `Recommendations` tab after the Data Collector has completed and u
 > Note: You can use the `Advanced Settings` gear icon to change the `Dev cost multiplier` and `Overhead cost` and adjust the estimates for your team.
 
 ![recommendations](doc/source/images/recommendations.png)
-
-
 
 The recommendations tab shows you a table with a summary row for each application found on your application server. Each row contains the following information:
 
@@ -253,7 +253,8 @@ If you don’t already have a GitHub account that you can use, signup for one [h
 
   ![git_new_repo](doc/source/images/git_new_repo.png)
 
-* Take note of the URL to your Git repository. You will also need an access token.
+* Take note of the URL to your Git repository.
+* Optionally, generate an access token (so you don't need to use your password).
   * Go to your user settings and select `Developer settings` and then `Personal access tokens`.
   * Click on the `Generate new token` button, give it a description and define scopes and then hit `Generate token`.
   * Copy the token! You will need it later.
@@ -266,25 +267,20 @@ After you hit the `Deploy Bundle` button, you will be asked on the next screen t
 
 Use the Git URL and credentials and the Microclimate URL you gathered earlier. The Microclimate project name can be anything you want as long as it’s unique and a lowercase string.
 
-Hit the deploy button and Transformation Advisor will begin the three-step process of deploying the application to IBM Cloud Private by firstly pushing the bundle to Git, then connecting with Microclimate and creating a project and kicking off the Jenkins pipeline in Microclimate to pull the migration bundle from Git, containerize your application and deploy it.
-
-![setting_up_deployment](doc/source/images/setting_up_deployment.jpg)
+Hit the `Deploy` button and Transformation Advisor will begin the three-step process of deploying the application to IBM Cloud Private by...
+1. Pushing the bundle to Git
+1. Connecting with Microclimate and creating a project
+1. Kicking off the Jenkins pipeline in Microclimate to pull the migration bundle from Git, containerize your application, and deploy it.
 
 Once these steps are complete, you should see the three steps complete as below.
 
 ![setting_up_deployment_done](doc/source/images/setting_up_deployment_done.jpg)
 
-You can see the files you have pushed to Git by following the Git link.
+You can see the files you have pushed to Git by following the `View bundle in Github` link. If you wish, you can edit the migration bundle files directly in Git.
 
-![git_link](doc/source/images/git_link.jpg)
+![in_github](doc/source/images/in_github.jpg)
 
-If you wish, you can edit the migration bundle files directly in Git.
-
-![git_link](doc/source/images/in_github.jpg)
-
-At this point TA has handed off the build and deployment work to Microclimate and you can monitor progress in Microclimate by selecting the Jenkins pipeline link.
-
-![jenkins_link](doc/source/images/jenkins_link.jpg)
+At this point TA has handed off the build and deployment work to Microclimate. You can follow the links to `View and edit project in Microclimate` or `View and track pipeline in Jenkins`.
 
 If you chose to track the progress of the pipeline you will be taken to Microclimate Projects UI.
 
@@ -296,7 +292,7 @@ Select `Open Pipeline` to see your build and deploy progressing in Jenkins as sh
 
 It may take several minutes to complete, you can view the log files for each stage from this UI also.
 
-Once complete you can go back to the ICP Dashboard and check that your application is deployed and running. Check under `Workloads ▷ Deployments` in the hamburger menu.
+Once complete you can go back to the ICP Dashboard and check that your application is deployed and running. Check under `Workloads ▷ Deployments` in the `☰` "hamburger" menu.
 
 ## 8. Deploy to IBM Cloud Kubernetes Service (IKS)
 
