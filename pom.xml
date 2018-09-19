@@ -92,6 +92,7 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
           <packagingExcludes>pom.xml</packagingExcludes>
           <warSourceDirectory>WebContent</warSourceDirectory>
+          <outputDirectory>data/examples</outputDirectory>
         </configuration>
       </plugin>
     </plugins>
