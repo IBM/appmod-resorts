@@ -1,6 +1,6 @@
 # App Modernization using Transformation Advisor and Microclimate
 
-In this code pattern, we will use Transformation Advisor to evaluate an on-premise traditional WebSphere application for deployment on public and/or private cloud environments. We'll use Transformation Advisor's integration with Microclimate to deploy the app in a Liberty container running on IBM Cloud Private. We'll also download the generated migration bundle and use its Helm chart to deploy the containerized app to IBM Cloud Kubernetes Service (on IBM Cloud Public).
+In this code pattern, we will use Transformation Advisor to evaluate an on-premise traditional WebSphere application for deployment on public and/or private cloud environments. We'll use Transformation Advisor's integration with Microclimate to deploy the app in a Liberty container running on IBM Cloud Private. We'll also download the generated migration bundle and use its Helm chart to deploy the containerized app to IBM Cloud Kubernetes Service (public cloud).
 
 A sample web app is provided to demonstrate migration from on-premise to the cloud.
 
@@ -16,11 +16,14 @@ When the reader has completed this code pattern, they will understand how to:
 ![](doc/source/images/architecture.png)
 
 ## Flow
-1. Build custom Data Collector in Transformation Advisor
-2. Download and run custom Data Collector on-premise
-3. Upload results and binaries
-5. Review analysis
-6. Modernize and migrate app
+1. Developer downloads a custom Data Collector from Transformation Advisor
+2. Developer runs the Data Collector on the traditional WebSphere Application Server host
+3. Data Collector analysis is uploaded (automatically or manually)
+4. Developer reviews recommendations in Transformation Advisor and creates a migration bundle
+5. Transformation Advisor deploys the modernized app as a containerized Liberty app on IBM Private Cloud via Microclimate
+6. Developer downloads migration bundle
+7. Developer uses Docker to build an image and upload it to IBM Cloud Container Registry
+8. Developer uses generated Helm chart to deploy the modernized app as a containerized Liberty app on IBM Cloud Kubernetes Service
 
 ## Included components
 * [Transformation Advisor](https://www.youtube.com/watch?v=yBZVb0KfPlc): Not every workload should move to cloud. The right choice can yield large cost savings and speed time to market. The Transformation Advisor tool can help you decide.
