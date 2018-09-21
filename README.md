@@ -1,11 +1,6 @@
-# appmod-resorts
-**Work in progress** Check back in a few
-
 # App Modernization using Transformation Advisor and Microclimate
 
-In this code pattern, we will migrate a traditional WebSphere Application Server (WAS) app from on-premise to a Liberty container running on IBM Cloud Private. We'll use Transformation Advisor's integration with Microclimate to move the app.
-
-<!-- TODO: Also migrate to IKS -->
+In this code pattern, we will use Transformation Advisor to evaluate an on-premise traditional WebSphere application for deployment on public and/or private cloud environments. We'll use Transformation Advisor's integration with Microclimate to deploy the app in a Liberty container running on IBM Cloud Private. We'll also download the generated migration bundle and use its Helm chart to deploy the containerized app to IBM Cloud Kubernetes Service (on IBM Cloud Public).
 
 A sample web app is provided to demonstrate migration from on-premise to the cloud.
 
@@ -14,8 +9,9 @@ When the reader has completed this code pattern, they will understand how to:
 * Use Transformation Advisor to create a custom Data Collector
 * Run the custom Data Collector to analyze a traditional WebSphere app
 * Review the Transformation Advisor reports to see migration complexity, cost, and recommendations
-* Generate artifacts to containerize your app
+* Generate artifacts to containerize the app
 * Move the modernized app to IBM Cloud Private using Microclimate
+* Move the modernized app to IBM Cloud Kubernetes Service using a generated migration bundle
 
 ![](doc/source/images/architecture.png)
 
@@ -29,11 +25,14 @@ When the reader has completed this code pattern, they will understand how to:
 ## Included components
 * [Transformation Advisor](https://www.youtube.com/watch?v=yBZVb0KfPlc): Not every workload should move to cloud. The right choice can yield large cost savings and speed time to market. The Transformation Advisor tool can help you decide.
 * [Microclimate](https://microclimate-dev2ops.github.io/videos/Microclimateoverview.mp4): Create, build, test and deploy applications in one seamless experience to help development teams modernize existing applications.
+* [IBM Cloud Kubernetes Service](https://console.bluemix.net/docs/containers/container_index.html): IBM Cloud Kubernetes Service manages highly available apps inside Docker containers and Kubernetes clusters on the IBM Cloud.
+* [WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty): A dynamic and easy-to-use Java EE application server, with fast startup times, no server restarts to pick up changes, and a simple XML configuration.
 
 ## Featured technologies
 * [IBM Cloud Private](https://www.ibm.com/cloud/private): Drive innovation. Transform your enterprise. IBM Cloud Private: speed of public, control of private. IBM Cloud. The cloud for smarter business.
 * [Cloud](https://www.ibm.com/developerworks/learn/cloud/): Accessing computer and information technology resources through the Internet.
 * [Containers](https://www.ibm.com/cloud-computing/bluemix/containers): Virtual software objects that include all the elements that an app needs to run.
+* [Java](https://java.com/): A secure, object-oriented programming language for creating applications.
 
 # Watch the Video
 <!-- TODO: Update with new video for code pattern -->
@@ -61,7 +60,8 @@ When the reader has completed this code pattern, they will understand how to:
 Before you install Microclimate, decide if you will deploy to the IBM Cloud Kubernetes Service (IKS)!
 
 > In order to be able to deploy to IKS, you need to specify a Docker registry URL in the `jenkins.Pipeline.Registry.URL` property when you install Microclimate. Both Microclimate and IKS need to access this registry.
-The [Deploy to IKS](#Deploy-to-IKS) instructions assume the use of the IBM Cloud Container Registry. 
+The [Deploy to IBM Cloud Kubernetes Service (IKS)](#9-deploy-to-ibm-cloud-kubernetes-service-iks)
+instructions assume the use of the IBM Cloud Container Registry. 
 For the IBM Cloud Container Registry, the Docker registry URL should be in the following format:
 `registry.<region>.bluemix.net/<my_namespace>`
 
@@ -223,7 +223,7 @@ The binary scanner has an inventory report that helps you examine what’s in yo
 
 ![inventory](doc/source/images/inventory.png)
 
-## 5. Complete your migration bundle
+## 6. Complete your migration bundle
 
 Select the Application you wish to migrate from the `Recommendations` tab and hit the `Migration plan` button.
 
@@ -243,9 +243,18 @@ You will need to add the application binary itself (EAR/WAR file) and any extern
 
 ![add_dependencies](doc/source/images/added_war.png)
 
-Once all required application dependencies are uploaded, you will be able to either download the migration bundle (if you wish to manually deploy your app) or hit the `Deploy bundle` button on the right-hand side of the screen to help you automatically deploy the application using Microclimate.
+Once all required application dependencies are uploaded, you will be able to use the buttons to `Download bundle` and/or `Deploy Bundle`.
 
-## 6. Create a GitHub or GitLab repository
+* To deploy to IBM Cloud Private, press the `Deploy Bundle` button and continue with steps 7 and 8 (
+[Create a GitHub or GitLab repository](#7-create-a-github-or-gitlab-repository) and
+[Deploy your application](#8-deploy-your-application))
+to automatically deploy the application using Microclimate.
+
+* To manually deploy to IBM Cloud Kubernetes Service, 
+hit the `Download bundle` button and follow step 9
+([Deploy to IBM Cloud Kubernetes Service (IKS)](#8-deploy-to-ibm-cloud-kubernetes-service-iks)).
+
+## 7. Create a GitHub or GitLab repository
 
 If you don’t already have a GitHub account that you can use, signup for one [here](https://github.com/join?source=header-home).
 
@@ -259,7 +268,7 @@ If you don’t already have a GitHub account that you can use, signup for one [h
   * Click on the `Generate new token` button, give it a description and define scopes and then hit `Generate token`.
   * Copy the token! You will need it later.
 
-## 7. Deploy your application
+## 8. Deploy your application
 
 After you hit the `Deploy Bundle` button, you will be asked on the next screen to fill in the details you saved from earlier steps as shown below...
 
@@ -294,58 +303,168 @@ It may take several minutes to complete, you can view the log files for each sta
 
 Once complete you can go back to the ICP Dashboard and check that your application is deployed and running. Check under `Workloads ▷ Deployments` in the `☰` "hamburger" menu.
 
-## 8. Deploy to IBM Cloud Kubernetes Service (IKS)
-
-<!-- TODO: mention prerequisites? -->
-
-To deploy to the IKS, the Microclimate Helm chart must be configured so that pipelines push images to a registry that is accessible by both IBM Cloud Private and IKS, for example, the IBM Cloud Container Registry. For the IBM Cloud Container Registry, the Docker registry URL should be in the format `registry.<region>.bluemix.net/<my_namespace>`.
-
-To access the registry, Microclimate needs a non-expiring token with read-write access. This can be created by using the IBM Cloud Container Registry command line plugin as follows:
-
+Access the migrated app on ICP by going to this address (note the fragment for the resorts app example):
 ```
-ibmcloud cr token-add --description "Microclimate token" --non-expiring --readwrite
+http://<Ingress IP>:<TCP PORT>/resorts/
 ```
 
-The Docker registry secret for Microclimate should specify this token as the password, and a username of `token`. For example:
+## 9. Deploy to IBM Cloud Kubernetes Service (IKS)
 
-```
-kubectl create secret docker-registry microclimate-registry-secret \
-  --docker-server=registry.<region>.bluemix.net/<my_namespace> \
-  --docker-username=token \
-  --docker-password=<token_value> \
-  --docker-email=null
-```
+### Prerequisites
 
-The default service account in the IKS namespace to which applications are deployed must be configured to have at least read access to this registry. The IKS cluster must also have Helm initialized without TLS authentication. For example:
+* You must have at least one cluster available on IKS. If not, create one following this [guide](https://console.bluemix.net/docs/containers/cs_tutorials.html#cs_cluster_tutorial). Hint: Follow the [In the GUI](https://console.bluemix.net/containers-kubernetes/catalog/cluster/create) link. It's the easy path.
 
-```
-helm init
-```
+* You must have the following installed in your developer environment:
+  * [Docker](https://www.docker.com/get-docker)
+  * [Helm CLI](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_1.2.0/app_center/create_helm_cli.html)
+  * [IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use)
+  * [IBM Kubernetes CLI](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
-Microclimate has been tested with Helm versions 2.7.2 and 2.8.2.
+### Install IBM Cloud Container plug-ins
 
-Access to the IKS cluster is provided to Microclimate by defining a secret containing the cluster configuration. The cluster configuration can be retrieved from IKS by using the IKS command line plugin and the following command:
+1. Run the following commands to add the IBM Cloud Container plug-ins to your IBM Cloud CLI:
+   ```
+   ibmcloud plugin install container-registry -r Bluemix
+   ibmcloud plugin install container-service -r Bluemix
+   ```
 
-```
-ibmcloud cs cluster-config <cluster_name>
-```
+1. You can confirm that all required plugins (container-registry and container-service) are installed with this command:
+   ```
+   ibmcloud plugin list
+   ```
 
-This exports a YAML file that contains the configuration and a corresponding certificate. Do **not** export the `KUBECONFIG` environment variable as instructed by the command output as this may result in additional cluster configuration being added to the file. Change to the directory that contains these two files and then issue the following command to create a secret in the namespace that contains Microclimate, labelled to indicate that it contains a cluster configuration:
+### Setup IKS for Microclimate (in your dev environment)
 
-```
-kubectl create secret generic <secret_name> \
-  --from-file=kube-config.yml=<yaml_file>.yml \
-  --from-file=<certificate_file>.pem
-kubectl label secret <secret_name> microclimate-type=cluster-config
-```
+1. Login to IKS from a terminal (use `ibmcloud help login` to see more options):
+   ```
+   ibmcloud login
+   ```
+   Afterwards, a one time passcode link will be prompted. Go to that link and copy the passcode back to the terminal to proceed.
 
-The secret name can be any valid Kubernetes resource name. When you select a build to deploy in the Microclimate UI, this name is available to select from a drop-down menu. You can configure multiple IKS clusters in this way.
+1. Set the region to your cluster's region (use `ibmcloud ks regions` to see all available regions):
+   ```
+   ibmcloud cs region-set <region-name>
+   ```
+
+1. Login to the IBM Cloud Container Registry:
+   ```
+   ibmcloud cr login
+   ```
+
+1. Find your namespace in the list:
+   ```
+   ibmcloud cr namespace-list
+   ```
+
+1. Add a Microclimate token:
+
+   To deploy to the IKS, the Microclimate Helm chart must be configured so that pipelines push images to a registry that is accessible by both IBM Cloud Private and IKS, for example, the IBM Cloud Container Registry. For the IBM Cloud Container Registry, the Docker registry URL should be in the format:
+   ```
+   registry.<region>.bluemix.net/<my_namespace>
+   ```
+   To access the registry, Microclimate needs a non-expiring token with read-write access. This can be created by using the IBM Cloud Container Registry command line plugin as follows:
+   ```
+   ibmcloud cr token-add --description "Microclimate token" --non-expiring --readwrite
+   ```
+
+   The Docker registry secret for Microclimate should specify this token as the password, and a username of `token`. Run the following command with your own `<token_value>`, `<region>`, and `<namespace>`.
+   ```
+   kubectl create secret docker-registry microclimate-registry-secret \
+     --docker-server=registry.<region>.bluemix.net/<namespace> \
+     --docker-username=token \
+     --docker-password=<token_value> \
+     --docker-email=null
+   ```
+   The default service account in the IKS namespace to which applications are deployed must be configured to have at least read access to this registry.
+
+1. Initialize Helm:
+
+   The IKS cluster must also have Helm initialized without TLS authentication:
+   ```
+   helm init
+   ```
+   > Note: Microclimate has been tested with Helm versions 2.7.2 and 2.8.2.
+
+1. Set the CLI context to your cluster (use `ibmcloud ks clusters` to list all):
+
+   Access to the IKS cluster is provided to Microclimate by defining a secret containing the cluster configuration. The cluster configuration can be retrieved from IKS by using the IKS command line plugin and the following command:
+   ```
+   ibmcloud cs cluster-config <cluster_name>
+   ```
+   This exports a `*.yml` file that contains the configuration and a corresponding certificate in a `*.pem` file. **Do not export the `KUBECONFIG` environment variable** as instructed by the command output as this may result in additional cluster configuration being added to the file. 
+
+1. Create and label a secret:
+
+   Change to the directory that contains the `*.yml` and `*.pem` files and then issue the following commands to create a secret in the namespace that contains Microclimate, labelled to indicate that it contains a cluster configuration.
+   The secret name can be any valid Kubernetes resource name.
+   ```
+   kubectl create secret generic <secret_name> \
+     --from-file=kube-config.yml=<yaml_file>.yml \
+     --from-file=<certificate_file>.pem
+   kubectl label secret <secret_name> microclimate-type=cluster-config
+   ```
+
+### Deploy the app to IKS
+
+1. Copy the Migration Bundle that you downloaded from Transformation Advisor to the machine
+where you have completed the install of the CLIs above.
+
+1. Unzip the zip file. Use the unzipped directory as <MIGRATION_BUNDLE_HOME> in the steps below.
+
+1. Use docker to build an image. Build at the same level as Dockerfile.
+   > Note: Use your `region` and `namespace` and give your app an `instance-name` and version `tag`.
+   ```
+   cd <MIGRATION_BUNDLE_HOME>
+   docker build -t registry.<region>.bluemix.net/<namespace>/<instance-name>:<tag> .
+   ```
+
+1. Upload the docker image to the IKS private registry:
+   ```
+   docker push registry.ng.bluemix.net/<namespace>/<instance-name>:<tag>
+   ```
+   Check if your image has been uploaded successfully:
+   ```
+   ibmcloud cr image-list
+   ```
+
+1. Edit the `values.yaml` file under `<MIGRATION_BUNDLE_HOME>/chart/<application-name>/` as follows:
+
+   * Edit the repository value to the new IKS private registry link. For example:
+      ```
+      repository: "registry.ng.bluemix.net/<namespace>/<instance-name>"
+      ```
+   * Edit the “tag” field to match the tag used in your IKS private registry.
+
+1. Run the Helm install command:
+   ```
+   cd <MIGRATION_BUNDLE_HOME>/chart/<application-name>/
+   helm install . --name <application-name>
+
+1. Access your app running in the public cloud:
+
+   Run this command to find the port for your application:
+   ```
+   helm status <application-name>
+   ```
+   > Note: The port information is in the command output under the column "PORT(S)" with a value like 9080:30845/TCP, and in this case the 2nd number, 30845, is the port to use.
+
+   Run this command to find the public IP for your cluster:
+   ```
+   ibmcloud cs workers <cluster_name>
+   ```
+   > Note: The public IP information is in the command output under the column "Public IP".
+
+   Access the migrated app on IKS by going to this address (note the fragment for the resorts app example):
+   ```
+   http://<IP>:<PORT>/resorts/
+   ```
 
 # Links
 * [Transformation Advisor introductory video](https://www.youtube.com/watch?v=yBZVb0KfPlc)
 * [IBM Microclimate demo video](https://microclimate-dev2ops.github.io/videos/Microclimateoverview.mp4)
 * [Microclimate learning resources and documentation](https://microclimate-dev2ops.github.io/)
 * [Deploying Transformation Advisor](https://developer.ibm.com/recipes/tutorials/deploying-transformation-advisor-into-ibm-cloud-private/)
+* [Tutorial: Deploying apps into Kubernetes clusters](https://console.bluemix.net/docs/containers/cs_tutorials_apps.html#cs_apps_tutorial)
 
 # Learn more
 * **Artificial Intelligence Code Patterns**: Enjoyed this code pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/code/technologies/artificial-intelligence/).
