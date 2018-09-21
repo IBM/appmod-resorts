@@ -439,6 +439,7 @@ where you have completed the install of the CLIs above.
    ```
    cd <MIGRATION_BUNDLE_HOME>/chart/<application-name>/
    helm install . --name <application-name>
+   ```
 
 1. Access your app running in the public cloud:
 
