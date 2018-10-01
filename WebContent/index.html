@@ -24,10 +24,10 @@
 </head>
 
 <script>
-    function showCurrentDate(){
+    function showCurrentDate() {
         var dateObj = new Date();
         var locale = "en-us";
-        var month = dateObj.toLocaleString(locale,{month: "short"}); //months from 1-12
+        var month = dateObj.toLocaleString(locale, {month: "short"}); //months from 1-12
         var day = dateObj.getUTCDate();
         var year = dateObj.getUTCFullYear();
         return document.write(day + ' ' + month + ' ' + year);
@@ -46,11 +46,11 @@
         <li class="main-nav--list__item">Reservations</li>
         <li class="main-nav--list__item">Reward Center</li>
         <li class="main-nav--list__item">
-                <img class="globe-icon" src="images/globe-icon.svg" alt="">
-                <span class="languages-link">Languages</span>
-            </li>
-        </ul>
-    </header>
+            <img class="globe-icon" src="images/globe-icon.svg" alt="">
+            <span class="languages-link">Languages</span>
+        </li>
+    </ul>
+</header>
 
 <main class="hero js-hero">
     <nav class="sub-nav">
@@ -68,8 +68,10 @@
                 <path d="M10 0L5 5 0 0z"></path>
             </svg>
         </div>
-        <div class="travel-dates"><script>showCurrentDate()</script>
-            <svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <div class="travel-dates">
+            <script>showCurrentDate()</script>
+            <svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="Reservations-Bar" transform="translate(-946.000000, -22.000000)" fill="#FFFFFF">
                         <g id="Calendar-Icon">
@@ -84,8 +86,10 @@
                 </g>
             </svg>
         </div>
-        <div class="travel-dates"><script>showCurrentDate()</script>
-            <svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <div class="travel-dates">
+            <script>showCurrentDate()</script>
+            <svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="Reservations-Bar" transform="translate(-946.000000, -22.000000)" fill="#FFFFFF">
                         <g id="Calendar-Icon">
@@ -112,49 +116,63 @@
         </div>
         <h5 class="h5 weather-label line line__temp">Temperature</h5>
         <div class="weather-container">
-            <span class="factor js-tempF"></span> &#176; F <span class="factor">&nbsp;|</span><span class="factor js-tempC"></span> &#176; C
+            <span class="factor js-tempF"></span> &#176; F <span class="factor">&nbsp;|</span><span
+                class="factor js-tempC"></span> &#176; C
         </div>
         <h5 class="h5 weather-label line line__wind">Wind</h5>
         <div class="weather-container">
-            <span class="factor wind-direction js-wind-direction"></span> @ <span class="factor mph js-mph"></span>MPH<span class="factor">&nbsp;|</span><span class="factor kph js-kph"></span> KPH
+            <span class="factor wind-direction js-wind-direction"></span> @ <span
+                class="factor mph js-mph"></span>MPH<span class="factor">&nbsp;|</span><span
+                class="factor kph js-kph"></span> KPH
         </div>
         <h5 class="h5 weather-label line line__vis">Visibility</h5>
         <div class="weather-container">
-            <span class="factor vis-miles js-vis-mi"></span>M <span class="factor">&nbsp;|</span><span class="factor vis-km js-vis-km"></span> KM
+            <span class="factor vis-miles js-vis-mi"></span>M <span class="factor">&nbsp;|</span><span
+                class="factor vis-km js-vis-km"></span> KM
         </div>
     </div>
 </main>
-            
+
 <footer class="footer">
-    <svg class="footer--logo" width="126px" height="126px" viewBox="0 0 126 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="footer--logo" width="126px" height="126px" viewBox="0 0 126 126" version="1.1"
+         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
             <rect id="path-1" x="17" y="17" width="81" height="81"></rect>
             <filter x="-12.3%" y="-9.9%" width="124.7%" height="124.7%" filterUnits="objectBoundingBox" id="filter-2">
                 <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
                 <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-                <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out"
+                             result="shadowBlurOuter1"></feComposite>
+                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix"
+                               in="shadowBlurOuter1"></feColorMatrix>
             </filter>
         </defs>
         <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="M-Logo" transform="translate(7.000000, 4.000000)">
                 <g>
-                    <g id="Rectangle-4" transform="translate(57.500000, 57.500000) rotate(45.000000) translate(-57.500000, -57.500000) ">
+                    <g id="Rectangle-4"
+                       transform="translate(57.500000, 57.500000) rotate(45.000000) translate(-57.500000, -57.500000) ">
                         <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <rect stroke="#FFFFFF" stroke-width="5" stroke-linejoin="square" fill="#000000" fill-rule="evenodd" x="19.5" y="19.5" width="76" height="76"></rect>
+                        <rect stroke="#FFFFFF" stroke-width="5" stroke-linejoin="square" fill="#000000"
+                              fill-rule="evenodd" x="19.5" y="19.5" width="76" height="76"></rect>
                     </g>
-                    <polygon id="M" fill="#FFFFFF" points="71.6855862 31.4937435 89.4509144 31.4937435 89.4509144 37.8919843 83.2568728 37.8919843 83.2568728 76.3835288 89.4509144 76.3835288 89.4509144 82.7817697 70.1540924 82.7817697 70.1540924 76.3835288 76.2120012 76.3835288 76.2120012 37.8919843 58.5828058 83.3263008 57.0513119 83.3263008 39.5582493 37.8919843 39.5582493 76.3835288 45.2077598 76.3835288 45.2077598 82.7817697 27 82.7817697 27 76.3835288 33.2280748 76.3835288 33.2280748 37.8919843 27 37.8919843 27 31.4937435 44.5951623 31.4937435 58.106341 66.6160016"></polygon>
+                    <polygon id="M" fill="#FFFFFF"
+                             points="71.6855862 31.4937435 89.4509144 31.4937435 89.4509144 37.8919843 83.2568728 37.8919843 83.2568728 76.3835288 89.4509144 76.3835288 89.4509144 82.7817697 70.1540924 82.7817697 70.1540924 76.3835288 76.2120012 76.3835288 76.2120012 37.8919843 58.5828058 83.3263008 57.0513119 83.3263008 39.5582493 37.8919843 39.5582493 76.3835288 45.2077598 76.3835288 45.2077598 82.7817697 27 82.7817697 27 76.3835288 33.2280748 76.3835288 33.2280748 37.8919843 27 37.8919843 27 31.4937435 44.5951623 31.4937435 58.106341 66.6160016"></polygon>
                 </g>
             </g>
         </g>
     </svg>
     <img class="resort-name--footer" src="images/mod-resort-name.svg" alt="">
-    <p class="footer-content">Make your travel experience better with <span class="bold">Mod Resorts</span> and enjoy instant benefits at every hotel.</p>
+    <p class="footer-content">Make your travel experience better with <span class="bold">Mod Resorts</span> and enjoy
+        instant benefits at every hotel.</p>
     <h6 class="footer-content footer-content__heading">GLOBAL SITES</h6>
-    <p class="footer-content footer-content__list">    العربية   |   简体中文  |  繁體中文  |  Dansk  |  Nederlands  |  Suomi  |  Français  |  Deutsch  |  Italiano  |  Norsk  |  Português  |  Pусский  |  Svenska  |  日本語  |  한국어  |  Español  |  Türkçe
+    <p class="footer-content footer-content__list"> العربية | 简体中文 | 繁體中文 | Dansk | Nederlands | Suomi | Français |
+        Deutsch | Italiano | Norsk | Português | Pусский | Svenska | 日本語 | 한국어 | Español | Türkçe
     </p>
     <p class="footer-content footer-content__heading"><span class="bold">Mod Resorts</span></p>
-    <p class="footer-content footer-content__list">About MOD RESORTS | Site Map | Residences | Receive Our Newsletter | Facebook | Twitter | Careers | Development | Future Openings | Press Center | Travel Professionals | Accessibility</p>
+    <p class="footer-content footer-content__list">About MOD RESORTS | Site Map | Residences | Receive Our Newsletter |
+        Facebook | Twitter | Careers | Development | Future Openings | Press Center | Travel Professionals |
+        Accessibility</p>
     <p class="footer-content footer-content__contact">Customer Support 1-800-867-5409</p>
     <p class="footer-content footer-content__contact">(International) + 800 00 266 723</p>
     <p class="footer-content footer-content__legal">MOD RESORTS Honors Discount Terms & Conditions</p>
@@ -163,9 +181,11 @@
     <p class="footer-content footer-content__legal">Site Usage Agreement</p>
     <p class="footer-content footer-content__legal">&copy; 2018 MOD RESORTS</p>
     <p class="footer-content footer-content__legal">Powered by Weather Underground
-        <img class="header--weather--logo" width="120" height="33" src="https://icons.wxug.com/logos/PNG/wundergroundLogo_4c_rev_horz.png"></p>
+        <img class="header--weather--logo" width="120" height="33"
+             src="https://icons.wxug.com/logos/PNG/wundergroundLogo_4c_rev_horz.png"></p>
 </footer>
 
-<script src="main.js"></script></body>
+<script src="main.js"></script>
+</body>
 
 </html>
