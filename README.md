@@ -85,9 +85,9 @@ To find your Microclimate deployment:
 
   ![microclimate2](doc/source/images/microclimate2.jpg)
 
-* This will take you to the Microclimate Projects page. Take note of the URL. You will need this later.
+* This will take you to the Microclimate Projects page. Take note of the URL. You will need this later. (If they followed the instructions earlier, they should have an URL that looks like the one below. http://nip.io/ provides the service.)
 
-  ![microclimate3](doc/source/images/microclimate3.png)
+  ![microclimate3](doc/source/images/contrib_microclimate_url.png)
 
 ## 2. Get started with the Transformation Advisor
 
@@ -117,7 +117,7 @@ To get started with the Transformation Advisor:
 
 ## 3. Download and run the Data Collector
 
-> If you don't want to run our sample app and the Data Collector in your own WAS environment, you can use the the files that we already collected and saved in [data/examples](data/examples). Just upload them in [the next step](#4-upload-results-if-necessary) to continue.
+> If you don't want to run our sample app and the Data Collector in your own WAS environment, you can use the files that we already collected and saved in [data/examples](data/examples). Just upload them in [the next step](#4-upload-results-if-necessary) to continue.
 
 The Data Collector identifies which profiles are associated with the WebSphere installation along with the installed WebSphere and Java versions. It also identifies all WebSphere applications within each deployment manager and standalone profile. The tool generates one folder per profile and places analysis results within that directory.
 
@@ -294,13 +294,13 @@ You can see the files you have pushed to Git by following the `View bundle in Gi
 
 At this point TA has handed off the build and deployment work to Microclimate. You can follow the links to `View and edit project in Microclimate` or `View and track pipeline in Jenkins`.
 
-If you chose to track the progress of the pipeline you will be taken to Microclimate Projects UI.
+If you chose to view the project, you will be taken to Microclimate Projects UI.
 
-![microclimate_projects](doc/source/images/microclimate_projects.jpg)
+![microclimate_projects](doc/source/images/contrib_microclimate_projects.png)
 
-Select `Open Pipeline` to see your build and deploy progressing in Jenkins as shown below.
+If you chose to track the pipeline, you will be taken to Jenkins.
 
-![pipeline](doc/source/images/pipeline.jpg)
+![pipeline](doc/source/images/contrib_jenkins_pipeline_view.png)
 
 It may take several minutes to complete, you can view the log files for each stage from this UI also.
 
