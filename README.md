@@ -38,8 +38,7 @@ When the reader has completed this code pattern, they will understand how to:
 * [Java](https://java.com/): A secure, object-oriented programming language for creating applications.
 
 # Watch the Video
-<!-- TODO: Update with new video for code pattern -->
-[![](http://img.youtube.com/vi/yBZVb0KfPlc/0.jpg)](https://www.youtube.com/watch?v=yBZVb0KfPlc)
+[![](https://img.youtube.com/vi/lzFI4e3Ed68/0.jpg)](https://www.youtube.com/watch?v=lzFI4e3Ed68)
 
 # Prerequisites
 
@@ -464,6 +463,7 @@ where you have completed the install of the CLIs above.
    ```
 
 # Links
+* [Watch the video](https://www.youtube.com/watch?v=lzFI4e3Ed68)
 * [Transformation Advisor introductory video](https://www.youtube.com/watch?v=yBZVb0KfPlc)
 * [IBM Microclimate demo video](https://microclimate-dev2ops.github.io/videos/Microclimateoverview.mp4)
 * [Microclimate learning resources and documentation](https://microclimate-dev2ops.github.io/)
