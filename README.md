@@ -20,7 +20,7 @@ When the reader has completed this code pattern, they will understand how to:
 2. Developer runs the Data Collector on the traditional WebSphere Application Server host
 3. Data Collector analysis is uploaded (automatically or manually)
 4. Developer reviews recommendations in Transformation Advisor and creates a migration bundle
-5. Transformation Advisor deploys the modernized app as a containerized Liberty app on IBM Private Cloud via Microclimate
+5. Transformation Advisor deploys the modernized app as a containerized Liberty app on IBM Cloud Private via Microclimate
 6. Developer downloads migration bundle
 7. Developer uses Docker to build an image and upload it to IBM Cloud Container Registry
 8. Developer uses generated Helm chart to deploy the modernized app as a containerized Liberty app on IBM Cloud Kubernetes Service
