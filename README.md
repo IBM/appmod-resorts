@@ -28,7 +28,7 @@ When the reader has completed this code pattern, they will understand how to:
 ## Included components
 * [Transformation Advisor](https://www.youtube.com/watch?v=yBZVb0KfPlc): Not every workload should move to cloud. The right choice can yield large cost savings and speed time to market. The Transformation Advisor tool can help you decide.
 * [Microclimate](https://microclimate-dev2ops.github.io/videos/Microclimateoverview.mp4): Create, build, test and deploy applications in one seamless experience to help development teams modernize existing applications.
-* [IBM Cloud Kubernetes Service](https://console.bluemix.net/docs/containers/container_index.html): IBM Cloud Kubernetes Service manages highly available apps inside Docker containers and Kubernetes clusters on the IBM Cloud.
+* [IBM Cloud Kubernetes Service](https://cloud.ibm.com/docs/containers/container_index.html): IBM Cloud Kubernetes Service manages highly available apps inside Docker containers and Kubernetes clusters on the IBM Cloud.
 * [WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty): A dynamic and easy-to-use Java EE application server, with fast startup times, no server restarts to pick up changes, and a simple XML configuration.
 
 ## Featured technologies
@@ -314,12 +314,12 @@ http://<Ingress IP>:<TCP PORT>/resorts/
 
 ### Prerequisites
 
-* You must have at least one cluster available on IKS. If not, create one following this [guide](https://console.bluemix.net/docs/containers/cs_tutorials.html#cs_cluster_tutorial). Hint: Follow the [In the GUI](https://console.bluemix.net/containers-kubernetes/catalog/cluster/create) link. It's the easy path.
+* You must have at least one cluster available on IKS. If not, create one following this [guide](https://cloud.ibm.com/docs/containers/cs_tutorials.html#cs_cluster_tutorial). Hint: Follow the [In the GUI](https://cloud.ibm.com/containers-kubernetes/catalog/cluster/create) link. It's the easy path.
 
 * You must have the following installed in your developer environment:
   * [Docker](https://www.docker.com/get-docker)
   * [Helm CLI](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_1.2.0/app_center/create_helm_cli.html)
-  * [IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use)
+  * [IBM Cloud CLI](https://cloud.ibm.com/docs/cli/reference/ibmcloud/download_cli.html#install_use)
   * [IBM Kubernetes CLI](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
 ### Install IBM Cloud Container plug-ins
@@ -468,7 +468,7 @@ where you have completed the install of the CLIs above.
 * [IBM Microclimate demo video](https://microclimate-dev2ops.github.io/videos/Microclimateoverview.mp4)
 * [Microclimate learning resources and documentation](https://microclimate-dev2ops.github.io/)
 * [Deploying Transformation Advisor](https://developer.ibm.com/recipes/tutorials/deploying-transformation-advisor-into-ibm-cloud-private/)
-* [Tutorial: Deploying apps into Kubernetes clusters](https://console.bluemix.net/docs/containers/cs_tutorials_apps.html#cs_apps_tutorial)
+* [Tutorial: Deploying apps into Kubernetes clusters](https://cloud.ibm.com/docs/containers/cs_tutorials_apps.html#cs_apps_tutorial)
 
 # Learn more
 * **Artificial Intelligence Code Patterns**: Enjoyed this code pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/code/technologies/artificial-intelligence/).
