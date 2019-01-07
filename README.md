@@ -33,8 +33,8 @@ When the reader has completed this code pattern, they will understand how to:
 
 ## Featured technologies
 * [IBM Cloud Private](https://www.ibm.com/cloud/private): Drive innovation. Transform your enterprise. IBM Cloud Private: speed of public, control of private. IBM Cloud. The cloud for smarter business.
-* [Cloud](https://www.ibm.com/developerworks/learn/cloud/): Accessing computer and information technology resources through the Internet.
-* [Containers](https://www.ibm.com/cloud-computing/bluemix/containers): Virtual software objects that include all the elements that an app needs to run.
+* [Cloud](https://developer.ibm.com/depmodels/cloud/): Accessing computer and information technology resources through the Internet.
+* [Containers](https://www.ibm.com/cloud/container-service): Virtual software objects that include all the elements that an app needs to run.
 * [Java](https://java.com/): A secure, object-oriented programming language for creating applications.
 
 # Watch the Video
@@ -254,7 +254,7 @@ to automatically deploy the application using Microclimate.
 
 * To manually deploy to IBM Cloud Kubernetes Service, 
 hit the `Download bundle` button and follow step 9
-([Deploy to IBM Cloud Kubernetes Service (IKS)](#8-deploy-to-ibm-cloud-kubernetes-service-iks)).
+([Deploy to IBM Cloud Kubernetes Service (IKS)](#9-deploy-to-ibm-cloud-kubernetes-service-iks)).
 
 ## 7. Create a GitHub or GitLab repository
 
@@ -317,7 +317,7 @@ http://<Ingress IP>:<TCP PORT>/resorts/
 * You must have at least one cluster available on IKS. If not, create one following this [guide](https://cloud.ibm.com/docs/containers/cs_tutorials.html#cs_cluster_tutorial). Hint: Follow the [In the IBM Cloud console](https://cloud.ibm.com/containers-kubernetes/catalog/cluster/create) link. It's the easy path.
 
 * You must have the following installed in your developer environment:
-  * [Docker](https://www.docker.com/get-docker)
+  * [Docker](https://www.docker.com/get-started)
   * [Helm CLI](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_1.2.0/app_center/create_helm_cli.html)
   * [IBM Cloud CLI](https://cloud.ibm.com/docs/cli/reference/ibmcloud/download_cli.html#install_use)
   * [IBM Kubernetes CLI](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
@@ -471,12 +471,12 @@ where you have completed the install of the CLIs above.
 * [Tutorial: Deploying apps into Kubernetes clusters](https://cloud.ibm.com/docs/containers/cs_tutorials_apps.html#cs_apps_tutorial)
 
 # Learn more
-* **Artificial Intelligence Code Patterns**: Enjoyed this code pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/code/technologies/artificial-intelligence/).
+* **Artificial Intelligence Code Patterns**: Enjoyed this code pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/technologies/artificial-intelligence/).
 * **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our Code Pattern videos
 * **With Watson**: Want to take your Watson app to the next level? Looking to utilize Watson Brand assets? [Join the With Watson program](https://www.ibm.com/watson/with-watson/) to leverage exclusive brand, marketing, and tech resources to amplify and accelerate your Watson embedded commercial solution.
-* **Kubernetes on IBM Cloud**: Deliver your apps with the combined the power of [Kubernetes and Docker on IBM Cloud](https://www.ibm.com/cloud-computing/bluemix/containers)
+* **Kubernetes on IBM Cloud**: Deliver your apps with the combined the power of [Kubernetes and Docker on IBM Cloud](https://www.ibm.com/cloud/container-service)
 
 # License
-This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-[Apache Software License (ASL) FAQ](http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
