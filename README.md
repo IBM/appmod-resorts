@@ -314,7 +314,7 @@ http://<Ingress IP>:<TCP PORT>/resorts/
 
 ### Prerequisites
 
-* You must have at least one cluster available on IKS. If not, create one following this [guide](https://cloud.ibm.com/docs/containers/cs_tutorials.html#cs_cluster_tutorial). Hint: Follow the [In the GUI](https://cloud.ibm.com/containers-kubernetes/catalog/cluster/create) link. It's the easy path.
+* You must have at least one cluster available on IKS. If not, create one following this [guide](https://cloud.ibm.com/docs/containers/cs_tutorials.html#cs_cluster_tutorial). Hint: Follow the [In the IBM Cloud console](https://cloud.ibm.com/containers-kubernetes/catalog/cluster/create) link. It's the easy path.
 
 * You must have the following installed in your developer environment:
   * [Docker](https://www.docker.com/get-docker)
