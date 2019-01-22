@@ -63,7 +63,7 @@ Before you install Microclimate, decide if you will deploy to the IBM Cloud Kube
 
 > In order to be able to deploy to IKS, you need to specify a Docker registry URL in the `jenkins.Pipeline.Registry.URL` property when you install Microclimate. Both Microclimate and IKS need to access this registry.
 The [Deploy to IBM Cloud Kubernetes Service (IKS)](#9-deploy-to-ibm-cloud-kubernetes-service-iks)
-instructions assume the use of the IBM Cloud Container Registry. 
+instructions assume the use of the IBM Cloud Container Registry.
 For the IBM Cloud Container Registry, the Docker registry URL should be in the following format:
 `registry.<region>.bluemix.net/<my_namespace>`
 
@@ -133,7 +133,7 @@ The Data Collector tab should now display the screen shown below. The Data Colle
 
 ### Install and run
 
-> **WARNING:** The Data Collector is likely to consume a significant amount of resources while gathering data. Therefore, we recommend you run the tool in a pre-production environment. Depending on the number, size and complexity of your applications the Data Collector may take quite some time to execute and upload results. 
+> **WARNING:** The Data Collector is likely to consume a significant amount of resources while gathering data. Therefore, we recommend you run the tool in a pre-production environment. Depending on the number, size and complexity of your applications the Data Collector may take quite some time to execute and upload results.
 
 Once downloaded, follow these steps:
 
@@ -155,7 +155,7 @@ Once downloaded, follow these steps:
 
 ## 4. Upload results, if necessary
 
-If there is a connection between your system and your new collection, the Data Collector will send your application data for you. Use the `Recommendations` tab to see the results and continue with the following section: 
+If there is a connection between your system and your new collection, the Data Collector will send your application data for you. Use the `Recommendations` tab to see the results and continue with the following section:
 [5. View the recommendations and cost estimates](#5-view-the-recommendations-and-cost-estimates).
 
 If there is no connection, the Data Collector will return a .zip file containing your application data. Use the `Recommendations` tab to upload the .zip file(s).
@@ -252,7 +252,7 @@ Once all required application dependencies are uploaded, you will be able to use
 [Deploy your application](#8-deploy-your-application))
 to automatically deploy the application using Microclimate.
 
-* To manually deploy to IBM Cloud Kubernetes Service, 
+* To manually deploy to IBM Cloud Kubernetes Service,
 hit the `Download bundle` button and follow step 9
 ([Deploy to IBM Cloud Kubernetes Service (IKS)](#9-deploy-to-ibm-cloud-kubernetes-service-iks)).
 
@@ -393,7 +393,7 @@ http://<Ingress IP>:<TCP PORT>/resorts/
    ```
    ibmcloud cs cluster-config <cluster_name>
    ```
-   This exports a `*.yml` file that contains the configuration and a corresponding certificate in a `*.pem` file. **Do not export the `KUBECONFIG` environment variable** as instructed by the command output as this may result in additional cluster configuration being added to the file. 
+   This exports a `*.yml` file that contains the configuration and a corresponding certificate in a `*.pem` file. **Do not export the `KUBECONFIG` environment variable** as instructed by the command output as this may result in additional cluster configuration being added to the file.
 
 1. Create and label a secret:
 
