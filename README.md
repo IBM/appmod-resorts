@@ -1,3 +1,8 @@
+# WARNING: This repository is no longer maintained :warning:
+
+> This repository will not be updated. The repository will be kept available in read-only mode.
+> For an updated version of this code pattern go here: [Transform your traditional on-premises app and deploy it as a containerized app on a public cloud](https://developer.ibm.com/patterns/modernize-apps-with-ibm-transformation-advisor/)
+
 # App Modernization using Transformation Advisor and Microclimate
 
 In this code pattern, we will use Transformation Advisor to evaluate an on-premise traditional WebSphere application for deployment on public and/or private cloud environments. We'll use Transformation Advisor's integration with Microclimate to deploy the app in a Liberty container running on IBM Cloud Private. We'll also download the generated migration bundle and use its Helm chart to deploy the containerized app to IBM Cloud Kubernetes Service (public cloud).
